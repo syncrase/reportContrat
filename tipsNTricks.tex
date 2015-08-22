@@ -1,0 +1,61 @@
+
+
+\textbf{text gras}\hfill \\ \indent text indenté
+
+%Ne pas mettre de caractères accentués dans les titres ci-dessous
+\chapter{chapX}\label{chapter:chapX}
+\section{section}
+\subsection{sous-section}
+\subsubsection{sous-sous-section}
+
+
+une ligne\\ une ligne à la ligne
+
+\c{c} : ç
+\'{e} : é
+\`{e} : è
+\`{a} : à
+\^{a} : â
+\^{e} : ê
+\{
+\%
+\_
+\textbackslash{}
+
+
+\textquote{derrière}
+
+
+1\up{er}
+
+%Juste une liste
+\begin{itemize}
+	\item un élément de liste\index{ref pour l'index}
+\end{itemize}
+%
+\begin{description}
+	\item[un titre en gras] \hfill \\
+	une description indentée
+
+\end{description}
+
+
+\ref{figure:testProcess} page \pageref{figure:testProcess}
+
+\begin{figure}[!h]% h || ht || .... cf 
+  \centering
+      \includegraphics[width=\textwidth+1cm,height=\textheight-1.5cm]{images/testProcessAtSAP.jpg}
+  \caption{Le process de test}
+	\label{figure:testProcess}
+\end{figure}
+
+
+%Insérer du code
+%Attention à la config nécessaire !
+\lstinputlisting[language=java]{scripts/basicStaticTest.java}
+
+
+%plus simple mais verbeux
+\begin{lstlisting}
+MonoDocTestCase(MonoDocTestCaseConfigInfo tccInfo, String sDocumentName, String sCategoryType, String sCategory, Boolean useAuroraCtx);
+\end{lstlisting}

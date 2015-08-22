@@ -1,0 +1,185 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{lipsum}% juste utile ici pour générer du faux texte}
+\usepackage{mwe}%juste utile ici pour générer de fausses images
+\usepackage{amsmath,amsfonts,amssymb}%extensions de l'ams pour les mathé matiques
+\usepackage{shorttoc}%pour la réalisation d'un sommaire.
+\usepackage{tikz}
+\usepackage{graphicx}%pour insérer images et pdf entre autres
+	\graphicspath{{images/}}%pour spécifier le chemin d'accès aux images
+\usepackage{pdfpages}
+\usepackage{geometry}%réglages des marges du document selon vos préférences ou celles de votre établissemant[left=3.5cm,right=2.5cm,top=4cm,bottom=4cm]
+\usepackage[Lenny]{fncychap}%pour de jolis titres de chapitres voir la doc pour d'autres styles.
+
+\usepackage{fancyhdr}%pour les entêtes et pieds de pages
+	\setlength{\headheight}{14.2pt}% hauteur de l'entête
+
+%%%%%%%%%%%%%%%%%%%style front%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+	\fancypagestyle{front}{%
+  		\fancyhf{}%on vide les entêtes
+  		\fancyfoot[C]{page \thepage}%
+  		\renewcommand{\headrulewidth}{0pt}%trait horizontal pour l'entête
+  		\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+		}
+
+
+%%%%%%%%%%%%%%%%%%%style main%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\fancypagestyle{main}{%
+		\fancyhf{}
+  		\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ ##1}{}}% redéfintion pour avoir ici les titres des chapitres des sections en minuscules
+  		\renewcommand{\sectionmark}[1]{\markright{\thesection\ ##1}}
+		\fancyhead[c]{}
+		\fancyhead[RO,LE]{\rightmark}%
+  		\fancyhead[LO,RE]{\leftmark}
+		\fancyfoot[C]{}
+		\fancyfoot[RO,LE]{page \thepage}%
+  		%\fancyfoot[LO,RE]{Rapport de contrat de professionnalisation}
+  		}
+
+%%%%%%%%%%%%%%%%%%%style back%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+	\fancypagestyle{back}{%
+  		\fancyhf{}%on vide les entêtes
+  		\fancyfoot[C]{page \thepage}%
+  		\renewcommand{\headrulewidth}{0pt}%trait horizontal pour l'entête
+  		\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
+		}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%index%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{makeidx}
+%\usepackage{xindy}
+\makeindex
+
+
+
+
+%\usepackage[thinlines]{easytable}
+%\usepackage{changepage}
+%\usepackage{fullwidth}
+
+
+%\DeclareUnicodeCharacter{00A0}{~}
+
+
+
+%\usepackage{newunicodechar}
+%\newunicodechar{^^a0}{~}
+
+
+\usepackage{listings}
+\usepackage{color}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle={\small\ttfamily},        % \footnotesize : the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=none,                    % b : sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=none,	                   % single : adds a frame around the code
+	% tb : 
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	columns=flexible,
+  keywordstyle=\color{blue},       % keyword style
+  language=Java,                 % the language of the code
+  otherkeywords={*,...},            % if you want to add more keywords to the set
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces' <=> showstringspaces=false
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+  title=\lstname,                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+	aboveskip=3mm,
+  belowskip=3mm
+}
+
+
+
+
+\usepackage[english,french]{babel}%pour un document en français
+\usepackage{hyperref}%rend actif les liens, références croisée, toc, ...
+		\hypersetup{colorlinks,%
+		citecolor=black,%
+		filecolor=black,%
+		linkcolor=black,%
+		urlcolor=black} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%biblio%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[backend=biber]{biblatex}
+\addbibresource{bibliographie/biblio.bib}% pour indiquer ou se trouve notre .bib
+\usepackage{csquotes}% pour la gestion des guillemets français.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%glossaire%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{glossaries}
+\makeglossaries		
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%liste des abbréviations%%%%%%%%%%%%%%		
+\usepackage[french]{nomencl}
+\makenomenclature
+\renewcommand{\nomname}{Liste des abréviation, des sigles et des symboles}
+
+%\glsresetall
+%\glsaddall
+
+
+%Please load the package listings after 'babel'
+\usepackage{listings}
+\usepackage{color}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle={\small\ttfamily},        % \footnotesize : the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=none,                    % b : sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=none,	                   % single : adds a frame around the code
+	% tb : 
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	columns=flexible,
+  keywordstyle=\color{blue},       % keyword style
+  language=Java,                 % the language of the code
+  otherkeywords={*,...},            % if you want to add more keywords to the set
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces' <=> showstringspaces=false
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+  title=\lstname,                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+	aboveskip=3mm,
+  belowskip=3mm
+}
+
+
+\makeatletter
+\newenvironment{abstract}{%
+    \cleardoublepage
+    \null\vfil
+    \@beginparpenalty\@lowpenalty
+    \begin{center}%
+      \bfseries \abstractname
+      \@endparpenalty\@M
+    \end{center}}%
+   {\par\vfil\null}
+\makeatother
+
+

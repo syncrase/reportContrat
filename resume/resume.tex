@@ -1,0 +1,15 @@
+%\thispagestyle{empty}% pour une page sans entête ni pieds de page
+%\chapter*{Résumés}
+%Pour l'ajout dans la table des matières au même rang que chapitre
+
+\begin{abstract}\addcontentsline{toc}{chapter}{Résumé}
+Mon résumé: en français qui respecte la typographie française.
+\end{abstract}
+%\thispagestyle{empty}%idem pour la pache blanche qui suit
+\selectlanguage{english}% pour un typographie anglaise
+\renewcommand{\abstractname}{Abstract}%pour changer le titre
+\begin{abstract}
+My abstract: vous pouvez notez ici que l'espacement entre le mot absract et les : n'est pas le même qu'en français comme le veut la typographie anglaise.
+\end{abstract}
+%\thispagestyle{empty}%
+\selectlanguage{french}% on n'oublie pas de repasser en langue française.
