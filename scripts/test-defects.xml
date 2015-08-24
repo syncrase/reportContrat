@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testcases>
+  <testcase classname="test.sap.sl.sdk.authoring.IssueWatcherTest" name="failingTestNoDefect" status="failed"/>
+  <testcase classname="test.sap.sl.sdk.authoring.IssueWatcherTest" name="successTestNoDefect" status="passed"/>
+  <testcase actualStatus="failed" classname="test.sap.sl.sdk.authoring.IssueWatcherTest" message="Error" name="failingTest3_ClassDefect" status="passed">
+    <defect expectedMessage="Error" link="https://sapjira.wdf.sap.corp/browse/BITBIWEBISL2-1542" status="Open" type="jira"/>
+  </testcase>
+  <testcase actualStatus="failed" classname="test.sap.sl.sdk.authoring.IssueWatcherTest" message="Error" name="failingTest2_ClassDefect" status="failed">
+    <defect expectedMessage="Failing test" link="https://css.wdf.sap.corp/sap/bc/bsp/spn/jcwb?crPointer=012006153200001159182015" status="In Process" type="cwb"/>
+  </testcase>
+  <testcase actualStatus="failed" classname="test.sap.sl.sdk.authoring.IssueWatcherTest" message="Failing test" name="failingTest_CWB_MatchingMessage" status="passed">
+    <defect expectedMessage="Failing test" link="https://css.wdf.sap.corp/sap/bc/bsp/spn/jcwb?crPointer=012006153200001159182015" status="In Process" type="cwb"/>
+  </testcase>
+  <testcase actualStatus="failed" classname="test.sap.sl.sdk.authoring.IssueWatcherTest" message="Failing test" name="failingTest1_ClassDefect" status="passed">
+    <defect expectedMessage="Failing test" link="https://css.wdf.sap.corp/sap/bc/bsp/spn/jcwb?crPointer=012006153200001159182015" status="In Process" type="cwb"/>
+  </testcase>
+  <testcase actualStatus="failed" classname="test.sap.sl.sdk.authoring.IssueWatcherTest" message="Failing test" name="failingTest_Jira_MatchingMessage" status="passed">
+    <defect expectedMessage="Failing test" link="https://sapjira.wdf.sap.corp/browse/BITBIWEBISL2-1542" status="Open" type="jira"/>
+  </testcase>
+  <testcase actualStatus="failed" classname="test.sap.sl.sdk.authoring.IssueWatcherTest" message="Error" name="failingTest_CWB_NoMatchingMessage" status="failed">
+    <defect expectedMessage="Failing test" link="https://css.wdf.sap.corp/sap/bc/bsp/spn/jcwb?crPointer=012006153200001159182015" status="In Process" type="cwb"/>
+  </testcase>
+</testcases>

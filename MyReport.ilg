@@ -1,4 +1,6 @@
 This is makeindex, version 2.15 [MiKTeX 2.9 64-bit] (kpathsea + Thai support).
-Scanning input file MyReport.idx...done (0 entries accepted, 0 rejected).
-Nothing written in MyReport.ind.
+Scanning input file MyReport.idx....done (63 entries accepted, 0 rejected).
+Sorting entries....done (398 comparisons).
+Generating output file MyReport.ind....done (61 lines written, 0 warnings).
+Output written in MyReport.ind.
 Transcript written in MyReport.ilg.

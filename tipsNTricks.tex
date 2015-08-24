@@ -2,6 +2,15 @@
 
 \textbf{text gras}\hfill \\ \indent text indenté
 
+%cf wikibook font size
+\Large{}\normalsize
+\LARGE{}\normalsize
+\huge
+\Huge
+
+
+
+
 %Ne pas mettre de caractères accentués dans les titres ci-dessous
 \chapter{chapX}\label{chapter:chapX}
 \section{section}
@@ -40,14 +49,21 @@ une ligne\\ une ligne à la ligne
 \end{description}
 
 
-\ref{figure:testProcess} page \pageref{figure:testProcess}
+
+%%IMAGES
+\ref{figure:} page \pageref{figure:}
 
 \begin{figure}[!h]% h || ht || .... cf 
   \centering
-      \includegraphics[width=\textwidth+1cm,height=\textheight-1.5cm]{images/testProcessAtSAP.jpg}
-  \caption{Le process de test}
-	\label{figure:testProcess}
+      \includegraphics[width=\textwidth+1cm,height=\textheight-1.5cm]{images/.jpg}
+  \caption{}
+	\label{figure:}
 \end{figure}
+
+
+%% PDF
+\includepdf[pages=-,scale=0.9,pagecommand={}]{images/AutomationResults.pdf}
+
 
 
 %Insérer du code
@@ -59,3 +75,21 @@ une ligne\\ une ligne à la ligne
 \begin{lstlisting}
 MonoDocTestCase(MonoDocTestCaseConfigInfo tccInfo, String sDocumentName, String sCategoryType, String sCategory, Boolean useAuroraCtx);
 \end{lstlisting}
+
+
+\url{https://url}
+
+
+
+\begin{tabular}{|l|c|r|}
+  \hline
+  colonne 1 & colonne 2 & colonne 3 \\
+  \hline
+  1.1 & 1.2 & 1.3 \\
+  2.1 & 2.2 & 2.3 \\
+  \hline
+\end{tabular}
+
+
+
+\usepackage{textcomp}%  \texttildelow
