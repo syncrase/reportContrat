@@ -242,12 +242,26 @@ Avant de pouvoir vraiment travailler à l'implémentation des fonctionnalités d
 	\label{figure:listviewSearch}
 \end{figure}
 
-Maintenant que l'on peut personnaliser la configuration du plugin, il faut pouvoir faire de même avec l'affichage de la vue. Nous allons donc créer un nouveau fichier \emph{main.xml} qui contiendra le code de l'interface graphique du plugin.
+Maintenant que l'on peut personnaliser la configuration du plugin, il faut pouvoir faire de même avec l'affichage de la vue. Nous allons donc créer un nouveau fichier \emph{main.xml} qui contiendra le code de l'interface graphique du plugin.\\
+
+Après quelques tests rapides on s'aperçois que beaucoup de code, css ou JavaScript, est exécuté lorsque l'on accède à la page. Il faut donc réinitialiser pour travailler dans de bonnes conditions. Premièrement, on supprime l'affichage du header, footer et side-panel de Jenkins (cf figure \ref{figure:cssInit} page \pageref{figure:cssInit}) et deuxièment on supprime l'affichage du side-panel, après chargement de la page (cf figure \ref{figure:cssInitJS} page \pageref{figure:cssInitJS}).\\
+
+\begin{figure}[!h]
+  \centering
+      \includegraphics{images/cssInit.png}
+  \caption{Initialisation des css avant chargement}
+	\label{figure:cssInit}
+\end{figure}
+
+\begin{figure}[!h]
+  \centering
+      \includegraphics{images/cssInitJS.png}
+  \caption{Initialisation des css après chargement}
+	\label{figure:cssInitJS}
+\end{figure}
 
 
-
-
-\subsection{}
+\section{Travail réalisé}
 
 
 

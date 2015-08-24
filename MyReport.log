@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.8.14)  24 AUG 2015 17:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.8.14)  24 AUG 2015 18:32
 entering extended mode
 **MyReport.tex
 (MyReport.tex
@@ -1479,7 +1479,13 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
- (MyReport.aux)
+ (MyReport.aux
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\I310911\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\english.lbx
+File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
+))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -1612,13 +1618,13 @@ Package biblatex Info: Reference segment=0 on input line 5.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <images/SAP.png, id=142, 2007.5pt x 1023.825pt>
+ <images/SAP.png, id=182, 2007.5pt x 1023.825pt>
 File: images/SAP.png Graphic file (type png)
  <use images/SAP.png>
 Package pdftex.def Info: images/SAP.png used on input line 13.
 (pdftex.def)             Requested size: 147.5847pt x 75.28152pt.
 
-<images/ESIGELEC.jpg, id=144, 426.75435pt x 93.7101pt>
+<images/ESIGELEC.jpg, id=184, 426.75435pt x 93.7101pt>
 File: images/ESIGELEC.jpg Graphic file (type jpg)
  <use images/ESIGELEC.jpg>
 Package pdftex.def Info: images/ESIGELEC.jpg used on input line 14.
@@ -1642,10 +1648,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {C:/Users/I310911/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/SAP.png> <./images/ESIGELEC.jpg>])
-[2
+(remerciements/remerciements.tex [2
 
 
-] (MyReport.toc) [3] [4
+]) [3] [4
+
+] (MyReport.toc) [5] [6
 
 ] (introduction/introduction.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 4--23
@@ -1676,17 +1684,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  []
 
 
-LaTeX Warning: Reference `pdf:automationResults' on page 5 undefined on input line 14.
-
-
-LaTeX Warning: Reference `pdf:automationResults' on page 5 undefined on input line 14.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<images/testProcessAtSAP.jpg, id=198, 822.07124pt x 834.11626pt>
+<images/testProcessAtSAP.jpg, id=256, 822.07124pt x 834.11626pt>
 File: images/testProcessAtSAP.jpg Graphic file (type jpg)
  <use images/testProcessAtSAP.jpg>
 Package pdftex.def Info: images/testProcessAtSAP.jpg used on input line 21.
@@ -1722,13 +1724,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
-[10] <images/savedReferenceDocPath.png, id=313, 375.65344pt x 297.36093pt>
+[10] <images/savedReferenceDocPath.png, id=371, 375.65344pt x 297.36093pt>
 File: images/savedReferenceDocPath.png Graphic file (type png)
  <use images/savedReferenceDocPath.png>
 Package pdftex.def Info: images/savedReferenceDocPath.png used on input line 145.
 (pdftex.def)             Requested size: 375.65251pt x 297.3602pt.
 
-<images/savedGeneratedDocPath.png, id=314, 426.84468pt x 249.18094pt>
+<images/savedGeneratedDocPath.png, id=372, 426.84468pt x 249.18094pt>
 File: images/savedGeneratedDocPath.png Graphic file (type png)
  <use images/savedGeneratedDocPath.png>
 Package pdftex.def Info: images/savedGeneratedDocPath.png used on input line 151.
@@ -1746,7 +1748,7 @@ Overfull \hbox (124.30072pt too wide) in paragraph at lines 139--155
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/localSavedReferences.png, id=317, 221.32687pt x 208.52907pt>
+<images/localSavedReferences.png, id=375, 221.32687pt x 208.52907pt>
 File: images/localSavedReferences.png Graphic file (type png)
  <use images/localSavedReferences.png>
 Package pdftex.def Info: images/localSavedReferences.png used on input line 163.
@@ -1757,13 +1759,13 @@ Overfull \hbox (8.39134pt too wide) in paragraph at lines 157--167
  []
 
 [11 <./images/savedReferenceDocPath.png>] [12 <./images/savedGeneratedDocPath.png> <./images/localSavedReferences.png>]
-<images/JCWB-CRs.png, id=331, 971.12813pt x 300.3722pt>
+<images/JCWB-CRs.png, id=389, 971.12813pt x 300.3722pt>
 File: images/JCWB-CRs.png Graphic file (type png)
  <use images/JCWB-CRs.png>
 Package pdftex.def Info: images/JCWB-CRs.png used on input line 185.
 (pdftex.def)             Requested size: 418.25368pt x 129.36377pt.
 
-<images/diffAgainst.png, id=334, 1419.05156pt x 697.8572pt>
+<images/diffAgainst.png, id=392, 1419.05156pt x 697.8572pt>
 File: images/diffAgainst.png Graphic file (type png)
  <use images/diffAgainst.png>
 Package pdftex.def Info: images/diffAgainst.png used on input line 192.
@@ -1772,7 +1774,7 @@ Package pdftex.def Info: images/diffAgainst.png used on input line 192.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./images/JCWB-CRs.png>] <images/testsRelations.jpg, id=344, 488.82625pt x 73.27374pt>
+[13 <./images/JCWB-CRs.png>] <images/testsRelations.jpg, id=403, 488.82625pt x 73.27374pt>
 File: images/testsRelations.jpg Graphic file (type jpg)
 
 <use images/testsRelations.jpg>
@@ -1784,7 +1786,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--215
  []
 
 [14 <./images/diffAgainst.png> <./images/testsRelations.jpg>]
-<images/testEmptyShell.jpg, id=354, 834.11626pt x 1174.3875pt>
+<images/testEmptyShell.jpg, id=413, 834.11626pt x 1174.3875pt>
 File: images/testEmptyShell.jpg Graphic file (type jpg)
  <use images/testEmptyShell.jpg>
 Package pdftex.def Info: images/testEmptyShell.jpg used on input line 229.
@@ -1796,7 +1798,7 @@ LaTeX Warning: Float too large for page by 10.8759pt on input line 232.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/widFileLocation.png, id=357, 654.19406pt x 293.59688pt>
+<images/widFileLocation.png, id=416, 654.19406pt x 293.59688pt>
 File: images/widFileLocation.png Graphic file (type png)
  <use images/widFileLocation.png>
 Package pdftex.def Info: images/widFileLocation.png used on input line 250.
@@ -1808,12 +1810,6 @@ Overfull \hbox (12.32162pt too wide) in paragraph at lines 246--254
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `pdf:ImplementedTestsList' on page 15 undefined on input line 259.
-
-
-LaTeX Warning: Reference `pdf:ImplementedTestsList' on page 15 undefined on input line 259.
 
 [15]
 Underfull \hbox (badness 10000) in paragraph at lines 274--278
@@ -1859,7 +1855,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<images/bugManagementProcess.png, id=410, 953.06062pt x 583.42969pt>
+<images/bugManagementProcess.png, id=471, 953.06062pt x 583.42969pt>
 File: images/bugManagementProcess.png Graphic file (type png)
  <use images/bugManagementProcess.png>
 Package pdftex.def Info: images/bugManagementProcess.png used on input line 70.
@@ -1889,7 +1885,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
 
-<images/reportingPluginEnvironmentAfter.jpg, id=424, 264.23718pt x 254.45062pt>
+<images/reportingPluginEnvironmentAfter.jpg, id=484, 264.23718pt x 254.45062pt>
 File: images/reportingPluginEnvironmentAfter.jpg Graphic file (type jpg)
 
 <use images/reportingPluginEnvironmentAfter.jpg>
@@ -1907,13 +1903,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--39
  []
 
 [24 <./images/reportingPluginEnvironmentAfter.jpg>] (scripts/test-defects.xml [25])
-
-LaTeX Warning: Reference `annexe:maven' on page 26 undefined on input line 59.
-
-
-LaTeX Warning: Reference `annexe:maven' on page 26 undefined on input line 59.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -1945,7 +1934,7 @@ Overfull \hbox (3.50056pt too wide) in paragraph at lines 116--117
 es
  []
 
-[27] <images/hpiCreate.png, id=517, 296.60812pt x 191.21437pt>
+[27] <images/hpiCreate.png, id=579, 296.60812pt x 191.21437pt>
 File: images/hpiCreate.png Graphic file (type png)
  <use images/hpiCreate.png>
 Package pdftex.def Info: images/hpiCreate.png used on input line 132.
@@ -1960,7 +1949,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
-<images/firstJenkinsWhenGenerateTheSkeletonPlugin.png, id=529, 484.81125pt x 359.09157pt>
+<images/firstJenkinsWhenGenerateTheSkeletonPlugin.png, id=591, 484.81125pt x 359.09157pt>
 File: images/firstJenkinsWhenGenerateTheSkeletonPlugin.png Graphic file (type png)
 
 <use images/firstJenkinsWhenGenerateTheSkeletonPlugin.png>
@@ -1970,7 +1959,7 @@ Package pdftex.def Info: images/firstJenkinsWhenGenerateTheSkeletonPlugin.png us
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29] <images/listviewJavaDoc.png, id=546, 528.47438pt x 39.14626pt>
+[29] <images/listviewJavaDoc.png, id=608, 528.47438pt x 39.14626pt>
 File: images/listviewJavaDoc.png Graphic file (type png)
  <use images/listviewJavaDoc.png>
 Package pdftex.def Info: images/listviewJavaDoc.png used on input line 211.
@@ -1983,73 +1972,396 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
-<images/dashboardGenesis.jpg, id=552, 1594.95876pt x 1074.0125pt>
+<images/listviewSearch.png, id=616, 278.54062pt x 138.5175pt>
+File: images/listviewSearch.png Graphic file (type png)
+ <use images/listviewSearch.png>
+Package pdftex.def Info: images/listviewSearch.png used on input line 240.
+(pdftex.def)             Requested size: 278.53993pt x 138.51715pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+[31 <./images/listviewSearch.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+<images/cssInit.png, id=632, 128.73094pt x 142.28156pt>
+File: images/cssInit.png Graphic file (type png)
+ <use images/cssInit.png>
+Package pdftex.def Info: images/cssInit.png used on input line 251.
+(pdftex.def)             Requested size: 128.7306pt x 142.2812pt.
+
+<images/cssInitJS.png, id=633, 234.1247pt x 57.96657pt>
+File: images/cssInitJS.png Graphic file (type png)
+ <use images/cssInitJS.png>
+Package pdftex.def Info: images/cssInitJS.png used on input line 258.
+(pdftex.def)             Requested size: 234.12411pt x 57.96642pt.
+
+<images/dashboardGenesis.jpg, id=634, 1594.95876pt x 1074.0125pt>
 File: images/dashboardGenesis.jpg Graphic file (type jpg)
  <use images/dashboardGenesis.jpg>
-Package pdftex.def Info: images/dashboardGenesis.jpg used on input line 246.
+Package pdftex.def Info: images/dashboardGenesis.jpg used on input line 271.
 (pdftex.def)             Requested size: 591.5302pt x 398.31252pt.
 
 
-LaTeX Warning: Float too large for page by 25.72864pt on input line 249.
+LaTeX Warning: Float too large for page by 25.72864pt on input line 274.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/myDash.jpg, id=553, 1800.7275pt x 1060.96375pt>
+<images/myDash.jpg, id=635, 1800.7275pt x 1060.96375pt>
 File: images/myDash.jpg Graphic file (type jpg)
  <use images/myDash.jpg>
-Package pdftex.def Info: images/myDash.jpg used on input line 254.
+Package pdftex.def Info: images/myDash.jpg used on input line 279.
 (pdftex.def)             Requested size: 591.5302pt x 348.5164pt.
 
 
-LaTeX Warning: Float too large for page by 25.72864pt on input line 257.
+LaTeX Warning: Float too large for page by 25.72864pt on input line 282.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (conclusion/conclusion.tex [31] [32 <./images/dashboardGenesis.jpg>] [33 <./images/myDash.jpg>] [34
+) (conclusion/conclusion.tex [32 <./images/cssInit.png> <./images/cssInitJS.png>] [33 <./images/dashboardGenesis.jpg>]
+[34 <./images/myDash.jpg>]) [35
 
-]) [35] [36
+] [36
+
+] (annexes/annexeTestLevels.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 788.14134pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=788.14134pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-106.34378pt
+* \headheight=14.2pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=106.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Annexe A.
+<images/TestingLevels.png, id=660, 958.3303pt x 514.17094pt>
+File: images/TestingLevels.png Graphic file (type png)
+ <use images/TestingLevels.png>
+Package pdftex.def Info: images/TestingLevels.png used on input line 7.
+(pdftex.def)             Requested size: 551.69653pt x 295.99905pt.
+ [37
+
+
+ <./images/TestingLevels.png>]) (annexes/AutomationResults.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 788.14134pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=788.14134pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-106.34378pt
+* \headheight=14.2pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=106.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [38
+
+
+
 
 ]
-(MyReport.ind [37
+Annexe B.
+<images/AutomationResults.pdf, id=671, 597.53139pt x 845.0561pt>
+File: images/AutomationResults.pdf Graphic file (type pdf)
+ <use images/AutomationResults.pdf>
+Package pdftex.def Info: images/AutomationResults.pdf used on input line 12.
+(pdftex.def)             Requested size: 597.52992pt x 845.05405pt.
+File: images/AutomationResults.pdf Graphic file (type pdf)
+
+<use images/AutomationResults.pdf>
+Package pdftex.def Info: images/AutomationResults.pdf used on input line 12.
+(pdftex.def)             Requested size: 597.52992pt x 845.05405pt.
+ <images/AutomationResults.pdf, id=674, page=1, 597.53139pt x 845.0561pt>
+File: images/AutomationResults.pdf Graphic file (type pdf)
+
+<use images/AutomationResults.pdf, page 1>
+Package pdftex.def Info: images/AutomationResults.pdf, page1 used on input line 12.
+(pdftex.def)             Requested size: 597.52992pt x 845.05405pt.
+File: images/AutomationResults.pdf Graphic file (type pdf)
+ <use images/AutomationResults.pdf, page 1>
+Package pdftex.def Info: images/AutomationResults.pdf, page1 used on input line 12.
+(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
+File: images/AutomationResults.pdf Graphic file (type pdf)
+
+<use images/AutomationResults.pdf, page 1>
+Package pdftex.def Info: images/AutomationResults.pdf, page1 used on input line 12.
+(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
+File: images/AutomationResults.pdf Graphic file (type pdf)
+ <use images/AutomationResults.pdf, page 1>
+Package pdftex.def Info: images/AutomationResults.pdf, page1 used on input line 12.
+(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
+ [39]
+<images/AutomationResults.pdf, id=679, page=2, 597.53139pt x 845.0561pt>
+File: images/AutomationResults.pdf Graphic file (type pdf)
+ <use images/AutomationResults.pdf, page 2>
+Package pdftex.def Info: images/AutomationResults.pdf, page2 used on input line 12.
+(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
+File: images/AutomationResults.pdf Graphic file (type pdf)
+
+<use images/AutomationResults.pdf, page 2>
+Package pdftex.def Info: images/AutomationResults.pdf, page2 used on input line 12.
+(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
+File: images/AutomationResults.pdf Graphic file (type pdf)
+ <use images/AutomationResults.pdf, page 1>
+Package pdftex.def Info: images/AutomationResults.pdf, page1 used on input line 12.
+(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
+ [40 <./images/AutomationResults.pdf>] <images/AutomationResults.pdf, id=698, page=3, 597.53139pt x 845.0561pt>
+File: images/AutomationResults.pdf Graphic file (type pdf)
+ <use images/AutomationResults.pdf, page 3>
+Package pdftex.def Info: images/AutomationResults.pdf, page3 used on input line 12.
+(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
+File: images/AutomationResults.pdf Graphic file (type pdf)
+
+<use images/AutomationResults.pdf, page 3>
+Package pdftex.def Info: images/AutomationResults.pdf, page3 used on input line 12.
+(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
+File: images/AutomationResults.pdf Graphic file (type pdf)
+ <use images/AutomationResults.pdf, page 2>
+Package pdftex.def Info: images/AutomationResults.pdf, page2 used on input line 12.
+(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
+ [41 <./images/AutomationResults.pdf>]
+File: images/AutomationResults.pdf Graphic file (type pdf)
+ <use images/AutomationResults.pdf, page 3>
+Package pdftex.def Info: images/AutomationResults.pdf, page3 used on input line 12.
+(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
+ [42 <./images/AutomationResults.pdf>]) (annexes/ImplementedTestsList.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 788.14134pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=788.14134pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-106.34378pt
+* \headheight=14.2pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=106.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Annexe C.
+<images/ImplementedTestsList.pdf, id=707, 597.55246pt x 845.07718pt>
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+ <use images/ImplementedTestsList.pdf>
+Package pdftex.def Info: images/ImplementedTestsList.pdf used on input line 12.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+
+<use images/ImplementedTestsList.pdf>
+Package pdftex.def Info: images/ImplementedTestsList.pdf used on input line 12.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+ <images/ImplementedTestsList.pdf, id=710, page=1, 597.55246pt x 845.07718pt>
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+
+<use images/ImplementedTestsList.pdf, page 1>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page1 used on input line 12.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+ <use images/ImplementedTestsList.pdf, page 1>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page1 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+
+<use images/ImplementedTestsList.pdf, page 1>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page1 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+ <use images/ImplementedTestsList.pdf, page 1>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page1 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+ [43
 
 
 
-]) [38
+]
+<images/ImplementedTestsList.pdf, id=716, page=2, 597.55246pt x 845.07718pt>
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+
+<use images/ImplementedTestsList.pdf, page 2>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page2 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+ <use images/ImplementedTestsList.pdf, page 2>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page2 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+
+<use images/ImplementedTestsList.pdf, page 1>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page1 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+ [44 <./images/ImplementedTestsList.pdf>]
+<images/ImplementedTestsList.pdf, id=739, page=3, 597.55246pt x 845.07718pt>
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+
+<use images/ImplementedTestsList.pdf, page 3>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page3 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+ <use images/ImplementedTestsList.pdf, page 3>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page3 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+
+<use images/ImplementedTestsList.pdf, page 2>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page2 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+ [45 <./images/ImplementedTestsList.pdf>]
+<images/ImplementedTestsList.pdf, id=746, page=4, 597.55246pt x 845.07718pt>
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+
+<use images/ImplementedTestsList.pdf, page 4>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page4 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+ <use images/ImplementedTestsList.pdf, page 4>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page4 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+
+<use images/ImplementedTestsList.pdf, page 3>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page3 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+ [46 <./images/ImplementedTestsList.pdf>]
+File: images/ImplementedTestsList.pdf Graphic file (type pdf)
+
+<use images/ImplementedTestsList.pdf, page 4>
+Package pdftex.def Info: images/ImplementedTestsList.pdf, page4 used on input line 12.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+ [47 <./images/ImplementedTestsList.pdf>]) (annexes/JenkinsBasis.tex
+[48
 
 
-] (MyReport.toc [39])
-\tf@toc=\write10
+]
+Annexe D.
 
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+) (annexes/Maven.tex [49] [50
+
+]
+Annexe E.
+) [51] [52
+
+] (MyReport.ind [53
+
+
+]) [54
+
+
+] (MyReport.lof)
+\tf@lof=\write10
+ [55] [56
+
+] (MyReport.lot)
+\tf@lot=\write11
+ [57] [58
+
+] (MyReport.toc [59])
+\tf@toc=\write12
+
+(page-de-couverture/quatrieme-de-couv.tex [60] [61
+
+])
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-[40]
+[62]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
  (MyReport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `MyReport.out' has not changed.
-(rerunfilecheck)             Checksum: F83101D4B22DE466A6FCB5FF58A9C0EB;2439.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 90C625D1CDE3F38A5A2ED19536827349;3050.
 Package logreq Info: Writing requests to 'MyReport.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 31497 strings out of 493673
- 549134 string characters out of 3143954
- 1290842 words of memory out of 3000000
- 33895 multiletter control sequences out of 15000+200000
+ 31652 strings out of 493673
+ 552488 string characters out of 3143954
+ 1305865 words of memory out of 3000000
+ 33973 multiletter control sequences out of 15000+200000
  28487 words of font info for 66 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 57i,14n,70p,2010b,3434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,19n,70p,2010b,3434s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\I310911\AppData\
 Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
 our\jknappen\ec\dpi600\ectt0900.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm14
@@ -2061,14 +2373,14 @@ AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Use
 s\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\eccc1095.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\I310911\AppData\Local\MiKTeX\2.9\f
 onts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
-i600\ecbx1095.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk> <C:\Users\I
+i600\ecrm2488.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\I
 310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2
 .9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
 c\dpi600\ecbx2488.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on MyReport.pdf (44 pages, 2024734 bytes).
+Output written on MyReport.pdf (68 pages, 2554926 bytes).
 PDF statistics:
- 1355 PDF objects out of 1440 (max. 8388607)
- 260 named destinations out of 1000 (max. 500000)
- 375 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1636 PDF objects out of 1728 (max. 8388607)
+ 300 named destinations out of 1000 (max. 500000)
+ 540 words of extra memory for PDF output out of 10000 (max. 10000000)
 

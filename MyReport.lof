@@ -26,10 +26,40 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Les diff\'{e}rents niveaux de test}}{21}{figure.A.1}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Le process utilis\IeC {\'e} lors de gestion d'un bug}}{21}{figure.3.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces L'environnement d'utilisation du plugin}}{24}{figure.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Architecture d'un plugin Jenkins g\IeC {\'e}n\IeC {\'e}r\IeC {\'e} par maven}}{28}{figure.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Jenkins \IeC {\`a} l'ex\IeC {\'e}cution de la commande maven qui l'encapsule}}{30}{figure.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Extrait de la javadoc de la classe ListView}}{30}{figure.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Chemin d'acc\IeC {\`e}s au fichier de configuration par d\IeC {\'e}faut}}{31}{figure.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Initialisation des css avant chargement}}{32}{figure.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Initialisation des css apr\IeC {\`e}s chargement}}{32}{figure.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Algorithme de cr\IeC {\'e}ation du Dashboard}}{33}{figure.4.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagramme de classe du plugin r\IeC {\'e}alis\IeC {\'e}}}{34}{figure.4.9}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Les diff\'{e}rents niveaux de test}}{37}{figure.A.1}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {french}
