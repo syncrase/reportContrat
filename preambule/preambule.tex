@@ -44,6 +44,18 @@
   		\renewcommand{\footrulewidth}{0.4pt}%trait horizontal pour les pieds de pages
 		}
 
+%%%%%%%%%%%%%%%%%%%style abstract%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+\makeatletter
+\newenvironment{abstract}{%
+    \cleardoublepage
+    \null\vfil
+    \@beginparpenalty\@lowpenalty
+    \begin{center}%
+      \bfseries \abstractname
+      \@endparpenalty\@M
+    \end{center}}%
+   {\par\vfil\null}
+\makeatother
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%index%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{makeidx}
@@ -66,46 +78,19 @@
 %\newunicodechar{^^a0}{~}
 
 
-\usepackage{listings}
-\usepackage{color}
-\definecolor{mygreen}{rgb}{0,0.6,0}
-\definecolor{mygray}{rgb}{0.5,0.5,0.5}
-\definecolor{mymauve}{rgb}{0.58,0,0.82}
-\lstset{ %
-  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
-  basicstyle={\small\ttfamily},        % \footnotesize : the size of the fonts that are used for the code
-  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
-  breaklines=true,                 % sets automatic line breaking
-  captionpos=none,                    % b : sets the caption-position to bottom
-  commentstyle=\color{mygreen},    % comment style
-  deletekeywords={...},            % if you want to delete keywords from the given language
-  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
-  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
-  frame=none,	                   % single : adds a frame around the code
-	% tb : 
-  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
-	columns=flexible,
-  keywordstyle=\color{blue},       % keyword style
-  %language=Java,                 % the language of the code
-  otherkeywords={*,...},            % if you want to add more keywords to the set
-  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
-  numbersep=5pt,                   % how far the line-numbers are from the code
-  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
-  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
-  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces' <=> showstringspaces=false
-  showstringspaces=false,          % underline spaces within strings only
-  showtabs=false,                  % show tabs within strings adding particular underscores
-  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
-  stringstyle=\color{mymauve},     % string literal style
-  tabsize=2,	                   % sets default tabsize to 2 spaces
-  title=\lstname,                   % show the filename of files included with \lstinputlisting; also try caption instead of title
-	aboveskip=3mm,
-  belowskip=3mm
-}
-
 
 
 \usepackage{textcomp}%  \texttildelow
+
+
+
+
+%\usepackage[demo]{graphicx}% delete the demo option in your actual code
+\usepackage{enumitem}
+\usepackage{booktabs}
+
+\usepackage{float}
+
 
 \usepackage[english,french]{babel}%pour un document en français
 \usepackage{hyperref}%rend actif les liens, références croisée, toc, ...
@@ -115,18 +100,22 @@
 		linkcolor=black,%
 		urlcolor=black} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%biblio%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[backend=biber]{biblatex}
+\usepackage[backend=bibtex]{biblatex}
 \addbibresource{bibliographie/biblio.bib}% pour indiquer ou se trouve notre .bib
+%\bibliography{bibliographie/biblio}
 \usepackage{csquotes}% pour la gestion des guillemets français.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%glossaire%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% run pdflatex report.tex
+%% depuis le répertoire courant : run makeglossaries report.glo
+%% run 2x  pdflatex report.tex
 \usepackage{glossaries}
 \makeglossaries		
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%liste des abbréviations%%%%%%%%%%%%%%		
-\usepackage[french]{nomencl}
-\makenomenclature
-\renewcommand{\nomname}{Liste des abréviation, des sigles et des symboles}
+%\usepackage[french]{nomencl}
+%\makenomenclature
+%\renewcommand{\nomname}{Liste des abréviation, des sigles et des symboles}
 
 %\glsresetall
 %\glsaddall
@@ -171,16 +160,6 @@
 }
 
 
-\makeatletter
-\newenvironment{abstract}{%
-    \cleardoublepage
-    \null\vfil
-    \@beginparpenalty\@lowpenalty
-    \begin{center}%
-      \bfseries \abstractname
-      \@endparpenalty\@M
-    \end{center}}%
-   {\par\vfil\null}
-\makeatother
+
 
 

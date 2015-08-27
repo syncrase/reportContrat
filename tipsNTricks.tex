@@ -9,7 +9,7 @@
 \Huge
 
 
-
+\footnote{Source : \url{}}
 
 %Ne pas mettre de caractères accentués dans les titres ci-dessous
 \chapter{chapX}\label{chapter:chapX}
@@ -26,6 +26,8 @@ une ligne\\ une ligne à la ligne
 \`{a} : à
 \^{a} : â
 \^{e} : ê
+\"{e} : ë
+\oe{}
 \{
 \%
 \_
@@ -62,14 +64,20 @@ une ligne\\ une ligne à la ligne
 
 
 %% PDF
-\includepdf[pages=-,scale=0.9,pagecommand={}]{images/AutomationResults.pdf}
+\includepdf[pages=-,scale=0.9,pagecommand={}\label{pdf:org}]{images/AutomationResults.pdf}
 
-
+%%% adapt geometry
+%% 0 partout et sa "supprime" header footer etc qui se retrouvent à l'extérieur
+\newgeometry{left=1cm,right=1cm,top=0cm,bottom=2cm}
+\restoregeometry
 
 %Insérer du code
 %Attention à la config nécessaire !
 \lstinputlisting[language=java]{scripts/basicStaticTest.java}
 
+% Pour les longs mots, ceux-ci se retrouvent coupés si c'est déconné
+\begin{sloppypar}
+\end{sloppypar}
 
 %plus simple mais verbeux
 \begin{lstlisting}
@@ -80,7 +88,7 @@ MonoDocTestCase(MonoDocTestCaseConfigInfo tccInfo, String sDocumentName, String 
 \url{https://url}
 
 
-
+%% TABLE
 \begin{tabular}{|l|c|r|}
   \hline
   colonne 1 & colonne 2 & colonne 3 \\
@@ -89,6 +97,37 @@ MonoDocTestCase(MonoDocTestCaseConfigInfo tccInfo, String sDocumentName, String 
   2.1 & 2.2 & 2.3 \\
   \hline
 \end{tabular}
+
+
+\begin{table}[h!]
+	\begin{center}
+     \begin{tabular}{ c  p{5cm}  p{5cm}  }
+			 \toprule
+				my.Lboro & Advantages & Disadvantages \\ 
+			\cmidrule(r){1-1}\cmidrule(lr){2-2}\cmidrule(l){3-3}
+			 \raisebox{-\totalheight}{\includegraphics[width=0.3\textwidth, height=50mm]{images/sap-executive-mcdermott.jpg}}
+				& 
+				\begin{itemize}[topsep=0pt]
+				\item Accessibility
+				\item Up to date information
+				\item Fulfil students needs and wants \ldots
+				\end{itemize}
+				& 
+				\begin{itemize}[topsep=0pt]
+				\item Accessibility
+				\item Up to date information
+				\item Fulfil students needs and wants \ldots
+				\end{itemize}
+				\\ 
+				
+				\bottomrule
+				\end{tabular}
+		\caption{my.Lboro Analysis}
+		\label{tbl:myLboro}
+	\end{center}
+\end{table}
+
+
 
 
 

@@ -1,0 +1,19 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{L}\relax \glsresetentrylist %
+\glossentry{latex}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{82}}}%
+\glossentry{lvm}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{82}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossentry{pigeon}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{82}}}%
+\glossentry{pois}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{82}}}\glsgroupskip
+\glsgroupheading{T}\relax \glsresetentrylist %
+\glossentry{TEM}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{82}}}\glsgroupskip
+\glsgroupheading{V}\relax \glsresetentrylist %
+\glossentry{vache}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{82}}}%
+\end{theglossary}\glossarypostamble

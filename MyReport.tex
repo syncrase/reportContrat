@@ -1,8 +1,9 @@
 \documentclass[11pt,a4paper,twoside,openright]{book}
 \input{preambule/preambule}
-%\input{glossaire/glossaire}
+\input{glossaire/glossaire}
 
 \begin{document}
+\frenchspacing
 \frontmatter% début des pages liminaires
 \pagestyle{front}%style des entêtes pour cette partie
 \input{page-de-couverture/page-de-couverture}%on créé la couverture
@@ -14,7 +15,7 @@
 
 
 \shorttableofcontents{Sommaire}{0}%sommaire avec uniquement les chapitres
-\addcontentsline{toc}{chapter}{Sommaire}%ajout du sommaire dans le sommaire!
+%\addcontentsline{toc}{chapter}{Sommaire}%ajout du sommaire dans le sommaire!
 
 
 \mainmatter% corps du document
@@ -23,46 +24,75 @@
 
 
 \input{Presentation-de-l-entreprise/Presentation-de-l-entreprise}
+\input{Presentation-de-l-entreprise/Presentation-de-l-equipe}
 
 \input{missions/Software-tester}
 \input{missions/Migration}
 \input{missions/JenkinsPlugin}
 
+\input{conclusion/bilan}
 \input{conclusion/conclusion}
 \cleardoublepage% le corps du document est terminé
 
 \appendix
 \pagestyle{back}
-\input{annexes/annexeTestLevels}
-\input{annexes/AutomationResults}
-\input{annexes/ImplementedTestsList}
-\input{annexes/JenkinsBasis}
-\input{annexes/Maven}
+%\input{annexes/annexeTestLevels}
+%\input{annexes/AutomationResults}
+%\input{annexes/ImplementedTestsList}
+%\input{annexes/JenkinsBasis}
+%\input{annexes/Maven}
+%\input{annexes/crashedBuildBecauseOfMe}
+%\input{annexes/DParameters}
+%\input{annexes/SAP-Corporate-Fact-Sheet}
 
 \backmatter
 \printindex
-%\addcontentsline{toc}{chapter}{Index}
+\addcontentsline{toc}{chapter}{Index}
 
-%\glsaddall
-%\printglossaries
-%\addcontentsline{toc}{chapter}{Glossaire}
+\glsaddall
+\printglossaries
+\addcontentsline{toc}{chapter}{Glossaire}
 
 %\printnomenclature
 %\addcontentsline{toc}{chapter}{Liste des abréviations, des sigles et des symboles}
 
-%\nocite{JenkinsTerminology}
-%\printbibliography
-%\addcontentsline{toc}{chapter}{Bibliographie}
+%\cite{JenkinsTerminology}%\cite[p.~215]{citation01}
+\cite{*}
+
+\printbibliography
+\addcontentsline{toc}{chapter}{Bibliographie}
+
+%\begin{thebibliography}{9}
+
+%\bibitem{lamport94}
+%  Leslie Lamport,
+%  \emph{\LaTeX: a document preparation system},
+%  Addison Wesley, Massachusetts,
+%  2nd edition,
+%  1994.%%
+
+%\end{thebibliography}
+%@ONLINE{JenkinsTerminology,
+%author = {Community, Open source},
+%title = {Terms used in Jenkins},
+%month = {feb},
+%year = {2015},
+%url = {https://wiki.jenkins-ci.org/display/JENKINS/Terminology}
+%}
+
+
+
+
 
 \listoffigures
 \addcontentsline{toc}{chapter}{Table des figures}
 
-\listoftables
-\addcontentsline{toc}{chapter}{Liste des tableaux}
+%\listoftables
+%\addcontentsline{toc}{chapter}{Liste des tableaux}
 
-\tableofcontents%table des matières plus complète
+\tableofcontents%table des matières plus complète   <<<<<<<<<  Important pour le sommaire plus haut!
 \addcontentsline{toc}{chapter}{Table des matières}%ajout de la table des matières dans la table des matières !
 
 
-\input{page-de-couverture/quatrieme-de-couv}
+%\input{page-de-couverture/quatrieme-de-couv}
 \end{document}

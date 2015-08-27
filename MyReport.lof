@@ -6,51 +6,75 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Le process de test}}{6}{figure.2.1}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \'{E}quipe de Rapha\"{e}l GEOFFROY - 1}}{14}{figure.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Capture d'\IeC {\'e}cran de WebI de l'arborescence du document de r\IeC {\'e}f\IeC {\'e}rence}}{11}{figure.2.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \'{E}quipe de Rapha\"{e}l GEOFFROY - 2}}{15}{figure.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Capture d'\IeC {\'e}cran de WebI de l'arborescence du document g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}}}{12}{figure.2.3}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \'{E}quipe des ind\'{e}pendants de Rapha\"{e}l GEOFFROY}}{15}{figure.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Capture d'\IeC {\'e}cran de WebI de l'arborescence des r\IeC {\'e}f\IeC {\'e}rences locales}}{12}{figure.2.4}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 8\up {\`{e}me \'{e}tage de la tour SAP \`{a} Levallois-Perret}}}{16}{figure.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces \'{E}cran de JCWB propre \IeC {\`a} une CM}}{13}{figure.2.5}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 8\`{e}me \'{e}tage de la tour SAP \`{a} Levallois-Perret - \'{E}quipe ST Automation - 1}}{16}{figure.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces \'{E}cran de comparaison des 2 versions d'un m\^{e}me fichier (avant et apr\IeC {\`e}s correctif)}}{14}{figure.2.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Diagramme UML des suites de tests}}{14}{figure.2.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagramme repr\IeC {\'e}sentant les diff\IeC {\'e}rents \IeC {\'e}l\IeC {\'e}ments qui compose la coquille vide d'un test dynamique}}{17}{figure.2.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Capture de l'\IeC {\'e}cran de propri\IeC {\'e}t\IeC {\'e} d'un document WebI}}{18}{figure.2.9}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces 8\`{e}me \'{e}tage de la tour SAP \`{a} Levallois-Perret - \'{E}quipe ST Automation - 2}}{17}{figure.2.6}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Le process utilis\IeC {\'e} lors de gestion d'un bug}}{21}{figure.3.1}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Le process de test}}{21}{figure.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Contenu du script.xml pour g\'{e}n\'{e}rer une r\'{e}f\'{e}rence}}{24}{figure.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Capture d'\'{e}cran de WebI de l'arborescence du document de r\'{e}f\'{e}rence}}{27}{figure.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Capture d'\'{e}cran de WebI de l'arborescence du document g\'{e}n\'{e}r\'{e}}}{28}{figure.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Capture d'\'{e}cran de WebI de l'arborescence des r\'{e}f\'{e}rences locales}}{29}{figure.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \'{E}cran de JCWB propre \`{a} une CM}}{29}{figure.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \'{E}cran de comparaison des 2 versions d'un m\^{e}me fichier (avant et apr\`{e}s correctif)}}{30}{figure.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagramme UML des suites de tests}}{31}{figure.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme repr\'{e}sentant les diff\'{e}rents \'{e}l\'{e}ments qui compose la coquille vide d'un test dynamique}}{32}{figure.3.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Les fichiers utilis\IeC {\'e}s ou g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}s par le test}}{33}{figure.3.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Capture de l'\'{e}cran de propri\'{e}t\'{e} d'un document WebI}}{34}{figure.3.11}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces L'environnement d'utilisation du plugin}}{24}{figure.4.1}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Plugin Radiator utilis\IeC {\'e} actuellement}}{38}{figure.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Architecture d'un plugin Jenkins g\IeC {\'e}n\IeC {\'e}r\IeC {\'e} par maven}}{28}{figure.4.2}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Contexte du'utilisation du plugin Radiator utilis\IeC {\'e} actuellement}}{39}{figure.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Jenkins \IeC {\`a} l'ex\IeC {\'e}cution de la commande maven qui l'encapsule}}{30}{figure.4.3}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Annotation utilis\IeC {\'e}e pour v\IeC {\'e}rifier le statut du defect Jira}}{39}{figure.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Extrait de la javadoc de la classe ListView}}{30}{figure.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Chemin d'acc\IeC {\`e}s au fichier de configuration par d\IeC {\'e}faut}}{31}{figure.4.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Initialisation des css avant chargement}}{32}{figure.4.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Initialisation des css apr\IeC {\`e}s chargement}}{32}{figure.4.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Algorithme de cr\IeC {\'e}ation du Dashboard}}{33}{figure.4.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagramme de classe du plugin r\IeC {\'e}alis\IeC {\'e}}}{34}{figure.4.9}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Process de gestion de bug utilis\IeC {\'e}}}{40}{figure.4.4}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Les diff\'{e}rents niveaux de test}}{37}{figure.A.1}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces L'environnement d'utilisation du plugin}}{44}{figure.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Architecture d'un plugin Jenkins g\IeC {\'e}n\IeC {\'e}r\IeC {\'e} par maven}}{48}{figure.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Jenkins \IeC {\`a} l'ex\IeC {\'e}cution de la commande maven qui l'encapsule}}{50}{figure.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Extrait de la javadoc de la classe ListView}}{51}{figure.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Chemin d'acc\IeC {\`e}s au fichier de configuration par d\IeC {\'e}faut}}{52}{figure.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Initialisation des css avant chargement}}{52}{figure.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Initialisation des css apr\IeC {\`e}s chargement}}{52}{figure.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Algorithme de cr\IeC {\'e}ation du Dashboard}}{54}{figure.5.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Diagramme de classe du plugin r\IeC {\'e}alis\IeC {\'e}}}{55}{figure.5.9}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Les diff\'{e}rents niveaux de test}}{59}{figure.A.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -60,6 +84,10 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\select@language {english}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\select@language {french}
+\contentsline {figure}{\numberline {F.1}{\ignorespaces Capture d'\'{e}cran du r\'{e}sultat de ma mauvaise manipulation}}{75}{figure.F.1}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

@@ -41,16 +41,16 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>MyReport.bcf</file>
+      <file>MyReport.aux</file>
+      <file>MyReport-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>MyReport.bbl</file>
     </requires>
     <requires type="static">
-      <file>blx-dm.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>numeric.bbx</file>
@@ -58,17 +58,17 @@
       <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>french.lbx</file>
-      <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
-    <generic>biber</generic>
+  <external package="biblatex" priority="5" active="1">
+    <generic>bibtex</generic>
     <cmdline>
-      <binary>biber</binary>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
       <infile>MyReport</infile>
     </cmdline>
     <input>
-      <file>MyReport.bcf</file>
+      <file>MyReport.aux</file>
     </input>
     <output>
       <file>MyReport.bbl</file>
@@ -77,10 +77,14 @@
       <file>MyReport.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>MyReport.bcf</file>
+      <file>MyReport.aux</file>
+      <file>MyReport-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>bibliographie/biblio.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
     </requires>
   </external>
 </requests>

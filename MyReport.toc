@@ -4,112 +4,168 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Remerciements}{ii}{Doc-Start}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Sommaire}{v}{chapter*.1}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Introduction}{1}{chapter*.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Pr\'{e}sentation de l'entreprise}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}SAP dans le monde}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Context actuel}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.1.1}Les produits SAP}{5}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Pr\'{e}sentation de l'\'{e}quipe}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.1.2}SAP en France}{7}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Software tester}{5}{chapter.2}
+\contentsline {section}{\numberline {1.2}Contexte ant\IeC {\'e}rieur \IeC {\`a} mon arriv\IeC {\'e}e \IeC {\`a} SAP}{7}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}G\'{e}n\'{e}ralit\'{e}s sur le test}{5}{section.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Les 8 initiatives qualit\IeC {\'e}}{8}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Le test \`{a} SAP}{5}{section.2.2}
+\contentsline {subsubsection}{Performance}{8}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Pr\'{e}sentation du produit test\'{e} : WebI}{6}{section.2.3}
+\contentsline {subsubsection}{Int\IeC {\'e}gration continue}{8}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Pr\'{e}paration aux tests}{7}{section.2.4}
+\contentsline {subsubsection}{Automation}{9}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}D\'{e}roulement de la 1\up {\`{e}me} mission}{7}{section.2.5}
+\contentsline {subsubsection}{Produitisation du test}{9}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Tests statiques ou dynamiques}{7}{subsection.2.5.1}
+\contentsline {subsubsection}{1 bug = 1 test}{9}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Tests statiques}{8}{section*.3}
+\contentsline {subsubsection}{Augmenter la couverture de test}{10}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Tests dynamiques}{9}{section*.4}
+\contentsline {subsubsection}{ADEPT}{10}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Ex\IeC {\'e}cution d'un test}{10}{section*.5}
+\contentsline {subsubsection}{Outil de validation des rapports}{10}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}De l'\'{e}tude \IeC {\`a} l'int\IeC {\'e}gration}{13}{subsection.2.5.2}
+\contentsline {chapter}{\numberline {2}Pr\'{e}sentation de mon environnement \`{a} SAP}{13}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Analyse du test \IeC {\`a} impl\IeC {\'e}menter}{13}{section*.6}
+\contentsline {section}{\numberline {2.1}Pr\IeC {\'e}sentation de l'\IeC {\'e}quipe}{13}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Impl\IeC {\'e}mentation de la coquille vide}{14}{section*.7}
+\contentsline {section}{\numberline {2.2}Son histoire}{13}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Les ressources}{15}{section*.8}
+\contentsline {section}{\numberline {2.3}Sa mission}{13}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Bilan de mes 1\up {\`{e}res} missions}{16}{section.2.6}
+\contentsline {section}{\numberline {2.4}Ing\'{e}nieur logiciel \`{a} SAP}{17}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.1}Les 1\up {\`{e}res} erreurs}{16}{subsection.2.6.1}
+\contentsline {chapter}{\numberline {3}Software tester}{19}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.2}Les acquis}{16}{subsection.2.6.2}
+\contentsline {section}{\numberline {3.1}G\'{e}n\'{e}ralit\'{e}s sur le test}{19}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Migration Jira/Java Correction WorkBench}{19}{chapter.3}
+\contentsline {subsection}{\numberline {3.1.1}Description des diff\IeC {\'e}rents types de test}{19}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Qu'est-ce que Jira et Java Correction WorkBench}{19}{section.3.1}
+\contentsline {subsubsection}{Le test unitaire}{19}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Pr\'{e}sentation du contexte}{19}{section.3.2}
+\contentsline {subsubsection}{Le test fonctionnel}{19}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Plugin de reporting}{20}{subsection.3.2.1}
+\contentsline {subsubsection}{Le test d'int\IeC {\'e}gration}{20}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Process actuel}{21}{section.3.3}
+\contentsline {subsubsection}{Le test de performance}{20}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Travail effectu\IeC {\'e}}{22}{section.3.4}
+\contentsline {subsubsection}{Le test de stabilit\IeC {\'e}}{20}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Fonctionnement et utilisation de prod-pass-access}{22}{subsection.3.4.1}
+\contentsline {subsubsection}{Le test de scalabilit\IeC {\'e}}{20}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}R\IeC {\'e}sultats obtenus}{22}{section.3.5}
+\contentsline {subsubsection}{Le test de validation de plateforme}{20}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Plugin Jenkins}{23}{chapter.4}
+\contentsline {section}{\numberline {3.2}Le test \`{a} SAP}{20}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Contexte initial}{23}{section.4.1}
+\contentsline {section}{\numberline {3.3}Pr\'{e}sentation du produit test\'{e} : WebI}{21}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}\'{E}tude pr\IeC {\'e}alable}{26}{section.4.2}
+\contentsline {section}{\numberline {3.4}Pr\'{e}paration aux tests}{22}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Le 1\up {er} plugin}{26}{section.4.3}
+\contentsline {section}{\numberline {3.5}Synth\`{e}se des premi\IeC {\`e}res missions}{22}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Le squelette du plugin}{27}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {3.5.1}Tests statiques ou dynamiques}{23}{subsection.3.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Configuration}{27}{section*.9}
+\contentsline {subsubsection}{Tests statiques}{23}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{G\IeC {\'e}n\IeC {\'e}ration du squelette}{28}{section*.10}
+\contentsline {subsubsection}{Tests dynamiques}{24}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{D\IeC {\'e}ploiement du squelette du plugin}{29}{section*.11}
+\contentsline {subsubsection}{Ex\'{e}cution d'un test}{26}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Essaie du squelette du plugin}{29}{section*.12}
+\contentsline {subsection}{\numberline {3.5.2}De l'\'{e}tude \`{a} l'int\'{e}gration}{28}{subsection.3.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Impl\IeC {\'e}mentation de la base du nouveau plugin}{29}{section.4.4}
+\contentsline {subsubsection}{Analyse du test \`{a} impl\'{e}menter}{28}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Import du code dans l'IDE}{31}{subsection.4.4.1}
+\contentsline {subsubsection}{Impl\'{e}mentation de la coquille vide}{30}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Impl\IeC {\'e}mentation de la base}{31}{subsection.4.4.2}
+\contentsline {subsubsection}{Les ressources}{33}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Travail r\IeC {\'e}alis\IeC {\'e}}{32}{section.4.5}
+\contentsline {section}{\numberline {3.6}Bilan de la 1\up {\IeC {\`e}re} p\IeC {\'e}riode}{35}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion}{35}{chapter*.13}
+\contentsline {subsection}{\numberline {3.6.1}Connaissance du framework}{35}{subsection.3.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Les niveaux de test}{37}{appendix.A}
+\contentsline {subsection}{\numberline {3.6.2}M\IeC {\'e}thodologie}{35}{subsection.3.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}R\'{e}sultats quotidien des tests}{39}{appendix.B}
+\contentsline {subsection}{\numberline {3.6.3}Travail en \IeC {\'e}quipe}{36}{subsection.3.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Tous les tests impl\'{e}ment\'{e}s}{43}{appendix.C}
+\contentsline {chapter}{\numberline {4}Migration Jira/Java Correction WorkBench}{37}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Les bases pour comprendre Jenkins}{49}{appendix.D}
+\contentsline {section}{\numberline {4.1}Qu'est-ce que Jira et Java Correction WorkBench (JCWB)}{37}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}Maven}{51}{appendix.E}
+\contentsline {section}{\numberline {4.2}Pr\'{e}sentation du contexte}{37}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Table des figures}{55}{appendix*.14}
+\contentsline {subsection}{\numberline {4.2.1}Plugin de reporting}{38}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Liste des tableaux}{57}{appendix*.15}
+\contentsline {section}{\numberline {4.3}Travail effectu\IeC {\'e}}{41}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Table des mati\IeC {\`e}res}{60}{appendix*.16}
+\contentsline {subsection}{\numberline {4.3.1}Fonctionnement et utilisation de prod-pass-access}{41}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\select@language {english}
+\contentsline {subsection}{\numberline {4.3.2}Son utilisation depuis Java}{41}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\select@language {french}
+\contentsline {section}{\numberline {4.4}R\IeC {\'e}sultats obtenus}{41}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Plugin Jenkins}{43}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Contexte initial}{43}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Organisation du travail}{46}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}\'{E}tude pr\IeC {\'e}alable}{46}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Le 1\up {er} plugin}{47}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Le squelette du plugin}{47}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Configuration}{47}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{G\IeC {\'e}n\IeC {\'e}ration du squelette}{48}{section*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{D\IeC {\'e}ploiement du squelette du plugin}{49}{section*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Essaie du squelette du plugin}{49}{section*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Impl\IeC {\'e}mentation de la base du nouveau plugin}{50}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Import du code dans l'IDE}{51}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Impl\IeC {\'e}mentation de la base}{51}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Travail r\IeC {\'e}alis\IeC {\'e}}{53}{section.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.1}Caract\IeC {\'e}ristiques du logiciel}{53}{subsection.5.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{57}{chapter*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Les niveaux de test}{59}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}R\'{e}sultats quotidiens des tests}{61}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Tous les tests impl\'{e}ment\'{e}s}{65}{appendix.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Les bases pour comprendre Jenkins}{71}{appendix.D}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {E}Maven}{73}{appendix.E}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {F}Mail re\c {c}u d'un mauvais push}{75}{appendix.F}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {G}Maven}{77}{appendix.G}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {H}Fiche d'information de SAP}{79}{appendix.H}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Index}{82}{appendix.H}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Glossaire}{83}{appendix*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliographie}{85}{appendix*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Table des figures}{88}{appendix*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Table des mati\IeC {\`e}res}{91}{appendix*.33}
