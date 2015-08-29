@@ -1,0 +1,77 @@
+
+\section{G\'{e}n\'{e}ralit\'{e}s sur le test automatique}
+
+Pour répondre à la question \textquote{Qu'est-ce qu'un test automatique?}, je dirais que c'est un code vérifiant le bon fonctionnement autre d'un code. Il existe de nombreux niveaux de test : unitaire, fonctionnel, intégration, performance, \ldots. Les tests sont très importants dans un projet logiciel, ils permettent de de s'assurer de la conformité du logiciel par rapport aux spécifications (autrement dit, le besoin client). La mise en place de ces tests automatiques est facilitée par un Framework, il en existe de nombreux mais de manière générale un Framework est un ensemble de librairies et de normes ( de modélisation, d'architecture, ...)\footnote{Source : \url{https://boulaich.wordpress.com/2009/07/08/framework-generalite/}}. \\
+\subsection{Description des différents types de test}
+
+%vas voir ici!!! http://jmdoudoux.developpez.com/cours/developpons/java/chap-frameworks-test.php
+
+
+\subsubsection{Le test unitaire}
+Un test unitaire vérifie le bon fonctionnement d'une petite portion de code. En règle générale il s'agit de tester que la valeur retournée par une méthode est la bonne, ces tests sont donc implémentés par les développeurs. Mais il s'agit aussi de valider le fonctionnement de la méthode aux limites et de vérifier la cohérence de ses résultats. Ces tests sont censés être les plus nombreux possible pour couvrir le maximum de cas possibles, on appelle cela le test coverage (ou couverture de test).
+
+\subsubsection{Le test fonctionnel}
+Le test fonctionnel est axé sur l'interaction des différentes méthodes, il est axé sur les fonctionnalités du logiciel. Ces tests permettent de vérifier le bon fonctionnement des spécifications du produit et de valider que les fonctionnalités correspondent aux spécifications. Ceux-ci sont assurés par les testeurs automatiques (ST).
+
+\subsubsection{Le test d'intégration}
+Le test d'intégration est au test fonctionnel ce que le test fonctionnel est au test unitaire, avec plusieurs niveaux de granularités (plus ou moins grand nombre de méthodes concernées). Le test d'intégration s'assure du bon fonctionnement du logiciel en interaction avec d'autres logiciels.
+
+\subsubsection{Le test de performance}
+Le test de performance s'assure qu'une action est effectuée dans le temps imparti. Les actions testées sont aux minimum celles qui composent les workflows nominaux, tant séparément que simultanément (multi utilisateurs).
+
+\subsubsection{Le test de stabilité}
+Le test de stabilité permet de tester qu'un comportement est systématique, autrement dit qu'une même action implique toujours le même résultat.\\
+Les tests se stabilités permet de s'assurer que la réponse est bien là dans le temps imparti et qu'il n'y a pas d'erreurs, ceci en faisant subir une montée en charge des requêtes du logiciel sur une durée pouvant aller de 24 à 72 heures.
+
+\subsubsection{Le test de scalabilité}
+Le test de scalabilité permet de s'assurer que le logiciel peut évoluer de manière à pouvoir offrir les mêmes performances dans un contexte d'utilisation qui a évolué. Par exemple, dans le cas où la charge d'utilisation double, est-il possible de modifier l'environnement client afin que les utilisateurs profitent des mêmes performances?
+
+
+\subsubsection{Le test de validation de plateforme}
+Ce type de test est consacré aux logiciels destinés à être utilisés sur plusieurs plateformes. Dans système d'exploitation à un autre, les comportements sont-ils les mêmes? Les fonctionnalités sont-elles identiques?
+
+\section{Le test dans l'équipe d'automatisation des tests}
+Lorsque je suis arrivé dans cette équipe, j'ai découvert des logiciels que je ne connaissais pas : Perforce, ASTEC, Jenkins, et d'autres. J'ai mis un peu de temps à me les approprier et à bien comprendre à quoi ils servaient exactement. La complexité de leur environnement d'utilisation ne m'a pas facilité la tâche. 
+
+Pour résumer ce que j'ai appris sur les généralités de cette équipe c'est qu'elle utilise plusieurs outils pour g\'{e}rer le code des différents logiciels, poss\'{e}dant chacun plusieurs versions. Pour chacune de ces versions une suite de tests est ex\'{e}cut\'{e}e quotidiennement où leurs codes sont h\'{e}berg\'{e}s sur le gestionnaire de code source Perforce\index{Perforce}. 
+
+Après chaque livraison de code effectuée, le logiciel est compilé par Jenkins, son utilisation étant principalement de vérifier l'état de la compilation après chaque livraison. Et, de plus, le logiciel est compilé quotidiennement par ASTEC dont les r\'{e}sultats sont automatiquement envoy\'{e}s aux personnes concern\'{e}es (cf. annexe \ref{pdf:automationResults} page \pageref{pdf:automationResults} qui pr\'{e}sente l'un des résultats de ces mails). L'utilisation de ASTEC dans l'équipe est beaucoup plus large que cela mais je n'ai pas eu l'occasion de l'étudier plus en détail.\\
+
+
+
+Le testeur automatique est focalisé sur les fonctionnalités du logiciel. Lorsque les spécifications d'une nouvelle fonctionnalité voient le jour, un plan de test est rédigé et est envoyé à l'équipe du test automatique. Du test plan est extrait tous les tests pouvant être automatisés et ceux-ci sont implémentés.\\
+Je n'ai pas beaucoup participé à cet aspect de l'équipe, ma principale mission relevait de l'initiative \textquote{1 bug - 1 test}. Mon travail n'était pas de tester une nouvelle fonctionnalité mais plutôt, une fonctionnalité déjà existante sur laquelle une anomalie à été trouvée, soit par un client (à éviter) soit par un individu interne à SAP.\\
+
+Le cycle de développement de l'automatisation de tests dans lequel j'ai évolué est résumé (et simplifié) figure \ref{figure:testProcess} page \pageref{figure:testProcess}. Ce cycle est celui de l'automatisation d'un test dans le cas d'une anomalie trouvée sur une fonctionnalité existante et pas sur une nouvelle fonctionnalié. Mon intégration dans ce processus de développement m'a appris beaucoup, non seulement quant à la gestion d'une anomalie logicielle, mais surtout quant à la valeur est à l'utilisation du test qui peut-être implémenter soit en réponse à une anomalie soit dans le processus initial de développement pour garantir qu'une fonctionnalité se comporte telle qu'elle est décrite dans les spécifications.\\
+\begin{figure}[!ht]
+  \centering
+      \includegraphics[width=\textwidth]{images/testProcessAtSAP.jpg}
+  \caption{Le process de test}
+	\label{figure:testProcess}
+\end{figure}
+ 
+
+
+\section{Pr\'{e}sentation du produit test\'{e} : Web Intelligence}
+Web Intelligence est un logiciel de BI\index{Business Intelligence} permettant d'acc\'{e}der \`{a} des donn\'{e}es stock\'{e}es dans une base de données. Cet accès aux données ne se fait pas directement, tout l'intérêt de Web Intelligence repose sur l'utilisation d'une couche sémantique, \textquote{l'univers}.\\
+Il existe trois interfaces graphiques permettant d'accéder à ces données, un client lourd et deux clients légers : l'applet et le client dhtml.
+
+\section{La première semaine dans l'équipe d'automatisation des tests}
+
+
+
+
+
+
+\`{A} mon arriv\'{e}e dans l'équipe et avant de commencer à implémenter des tests automatiques, j'ai \'{e}t\'{e} accueilli par mes coll\`{e}gues et on m'a fourni le mat\'{e}riel n\'{e}cessaire au bon d\'{e}roulement de mon travail.\\
+Mes 1\up{er} jours \`{a} SAP se sont d\'{e}roul\'{e}s de la mani\`{e}re suivante :\\
+\begin{itemize}
+\item Pr\'{e}sentation \`{a} l'\'{e}quipe et visite des locaux
+\item R\'{e}union avec mon tuteur et mon manager pour une description de la mission
+\item R\'{e}cup\'{e}ration des diff\'{e}rents droits d'acc\`{e}s aux serveurs
+\item Familiarisation avec les outils internes (tickets HR, CSS, IT, ...)
+\item Installation des logiciels n\'{e}cessaires au d\'{e}veloppement (IDE, SCM\index{Source Code Management}, \'{e}diteur de texte, \ldots)
+\item Mise en place du framework de test (cr\'{e}ation du workspace perforce)
+\end{itemize}
+Au terme de la 1\up{\`{e}re} semaine, j'ai pu commencer \`{a} \'{e}tudier le framework de test en me basant sur les tests d\'{e}j\`{a} existants.\\
+C'est au cours de la deuxi\`{e}me semaine que j'ai pu impl\'{e}menter mes 1\up{er} tests.

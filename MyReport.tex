@@ -6,12 +6,12 @@
 \frenchspacing
 \frontmatter% début des pages liminaires
 \pagestyle{front}%style des entêtes pour cette partie
-\input{page-de-couverture/page-de-couverture}%on créé la couverture
+%\input{page-de-couverture/page-de-couverture}%on créé la couverture
 \thispagestyle{empty}%pour la page de garde toute blanche
 %\input{page-de-couverture/page-de-titre}%no comment!
 %\input{resume/resume}%no comment!
 
-\input{remerciements/remerciements}%no comment!
+%\input{remerciements/remerciements}%no comment!
 
 
 \shorttableofcontents{Sommaire}{0}%sommaire avec uniquement les chapitres
@@ -20,18 +20,18 @@
 
 \mainmatter% corps du document
 \pagestyle{main}%style des entêtes pour cette partie
-\input{introduction/introduction}
+%\input{introduction/introduction}
 
 
-\input{Presentation-de-l-entreprise/Presentation-de-l-entreprise}
-\input{Presentation-de-l-entreprise/Presentation-de-l-equipe}
+%\input{Presentation-de-l-entreprise/Presentation-de-l-entreprise}
+%\input{Presentation-de-l-entreprise/Presentation-de-l-equipe}
 
 \input{missions/Software-tester}
-\input{missions/Migration}
-\input{missions/JenkinsPlugin}
+%\input{missions/Migration}
+%\input{missions/JenkinsPlugin}
 
-\input{conclusion/bilan}
-\input{conclusion/conclusion}
+%\input{conclusion/bilan}
+%\input{conclusion/conclusion}
 \cleardoublepage% le corps du document est terminé
 
 \appendix
@@ -43,13 +43,14 @@
 %\input{annexes/Maven}
 %\input{annexes/crashedBuildBecauseOfMe}
 %\input{annexes/DParameters}
-%\input{annexes/SAP-Corporate-Fact-Sheet}
+\input{annexes/SAP-Corporate-Fact-Sheet}
+\input{annexes/sortieConsole}
 
 \backmatter
-\printindex
-\addcontentsline{toc}{chapter}{Index}
+%\printindex
+%\addcontentsline{toc}{chapter}{Index}
 
-\glsaddall
+%\glsaddall
 \printglossaries
 \addcontentsline{toc}{chapter}{Glossaire}
 
@@ -57,10 +58,10 @@
 %\addcontentsline{toc}{chapter}{Liste des abréviations, des sigles et des symboles}
 
 %\cite{JenkinsTerminology}%\cite[p.~215]{citation01}
-\cite{*}
+%\cite{*}
 
-\printbibliography
-\addcontentsline{toc}{chapter}{Bibliographie}
+%\printbibliography
+%\addcontentsline{toc}{chapter}{Bibliographie}
 
 %\begin{thebibliography}{9}
 
@@ -84,8 +85,8 @@
 
 
 
-\listoffigures
-\addcontentsline{toc}{chapter}{Table des figures}
+%\listoffigures
+%\addcontentsline{toc}{chapter}{Table des figures}
 
 %\listoftables
 %\addcontentsline{toc}{chapter}{Liste des tableaux}

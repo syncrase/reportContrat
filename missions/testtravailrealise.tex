@@ -1,0 +1,80 @@
+\section{Travail r\'{e}alis\'{e}}
+
+Tout au long de cette mission, ou plut\^{o}t ces missions (un test achev\'{e} laisse toujours la place \`{a} un autre), j'ai travaill\'{e} \`{a} impl\'{e}menter des tests en Java permettant de valider automatiquement le comportement de WebI au niveau SDK.
+
+L'objectif principal de cette mission \'{e}tait d'\^{e}tre, \`{a} terme, capable d'impl\'{e}menter seul et dans les plus brefs d\'{e}lais un test automatique. La grande difficult\'{e} de d\'{e}but de cette mission a \'{e}t\'{e} de comprendre, d'une part, la logique du framework\index{Framework} de test, et d'autre part les diff\'{e}rentes choses que celui-ci me permettait de faire.\\
+
+Les concepts \`{a} assimiler \'{e}taient nombreux et j'ai pass\'{e} beaucoup de temps \`{a} essayer de comprendre le Framework sur lequel repose l'impl\'{e}mentation des tests. Les probl\`{e}mes majeurs que j'ai rencontr\'{e}s au d\'{e}but sont les diff\'{e}rents points suivants :
+\begin{itemize}
+	\item Comment int\'{e}grer un test \`{a} l'ensemble des tests ex\'{e}cut\'{e}s?
+  \item Quel type de test mettre en place, statique ou dynamique?
+	\item Comment initialiser un test?
+	\item Comment g\'{e}rer les sources de telle ou telle version du logiciel pour impl\'{e}menter un test automatique?
+	\item O\`{u} trouver les fichiers de r\'{e}f\'{e}rences n\'{e}cessaires?
+\end{itemize}
+
+J'ai \'{e}clairci tous ces points au fur et \`{a} mesure de mes missions et de mes exp\'{e}rimentations. Certains sont tr\`{e}s simples \`{a} assimiler mais d'autres m'ont pos\'{e}s beaucoup de probl\`{e}mes. Je d\'{e}taille dans les parties suivantes comment est-ce que j'ai \'{e}t\'{e} confront\'{e} \`{a} ces diff\'{e}rents probl\`{e}mes et la mani\`{e}re dont je m'y suis pris pour les r\'{e}soudre.
+
+
+\subsection{D\'{e}couverte de l'implémentation d'un test automatique}
+
+Ne connaissant rien ni de Web Intelligence ni du Framework de test, je me suis d'abord pench\'{e} la mani\`{e}re d'utiliser ce Framework pour impl\'{e}menter un code simple manipulant un document Web Inteliigence.\\
+
+Pour se faire, j'ai choisi une fonctionnalit\'{e} tr\`{e}s simple, le d\'{e}placement d'une cellule dans un tableau, me basant sur un document de test mis \`{a} ma disposition (illustration de ce document figure \pageref{figure:docsample}).\\
+
+\begin{figure}[!h]
+  \centering
+      \includegraphics{images/docsample.png}
+  \caption{Document sur lequel j'ai bas\'{e} mes premi\`{e}re exp\'{e}rimentations}
+	\label{figure:docsample}
+\end{figure}
+ 
+Partant de ce document, comment devais-je m'y prendre pour automatiser une action sur celui-ci? Pour se faire il me fallait me baser sur une impl\'{e}mentation de test automatique d\'{e}j\`{a} exitante. J'ai donc chercher un code dont la structure me permettait de manipuler un document Web Intelligence d\'{e}j\`{a} existant. Il en existe beaucoup de types diff\'{e}rents mais j'ai rapidement trouv\'{e} l'exemple d'un test qui se basait sur un document Web Intelligence. J'ai donc cr\'{e}\'{e} une nouvelle classe pour mon test et ai coll\'{e} le code \'{e}pur\'{e} \`{a} l'int\'{e}rieur, j'avais donc une classe Java me permettant d'effectuer un test sur mon document. Mais \`{a} cette \'{e}tape j'ai rencontr\'{e} un certain nombre de probl\`{e}mes m'emp\^{e}chant de tester mon code qui ne compilait pas.\\
+J'ai donc pass\'{e} beaucoup de temps \`{a} chercher les solutions dans les messages d'erreurs que je re\c{c}evais en masse.\\
+
+J'avais pris le soin de coller mon document Web Intelligence pr\'{e}cis\'{e}ment dans le dossier qu'il fallait mais pourtant, les messages d'erreur me disait que le document \'{e}tait introuvable. En investiguant tous les documents rentrant en jeu dans l'ex\'{e}cution du test et en r\'{e}fl\'{e}chissant \`{a} la signification de chacune des variables, je me suis rendu compte que je n'avais pas modifi\'{e} le \textquote{script ID} du fichier script.xml. Celui-ci permet d'identifier un plan de test, qui lui-m\^{e}me identifie une ou plusieurs classes de test. Une fois la modification effectu\'{e}e, en prenant soin de correctement renseigner le nom de mon test, je suis tomb\'{e} une fois de plus sur une erreur similaire : le document demeure introuvable. Le plan de test \'{e}tant ex\'{e}cut\'{e}, cette fois-ci, l'erreur ne pouvait se trouver que dans ma classe de test. J'ai rapidement identifi\'{e} le probl\`{e}me puisque c'est dans cette m\^{e}me classe que le chemin d'acc\`{e}s \`{a} mon fichier est renseign\'{e}. Les r\'{e}pertoires \'{e}tant nomm\'{e}s diff\'{e}remment en fonction de la suite de test \`{a} laquelle ils appartiennent, et, le test que je voulais ex\'{e}cuter ne faisant pas partie de la m\^{e}me suite, lors de l'ex\'{e}cution Java n'allais pas chercher mon document dans le bon r\'{e}pertoire. J'ai donc corrig\'{e} cette erreur et ai renseign\'{e} la bonne valeur.\\
+En ex\'{e}cutant de nouveau, je constate qu'il n'y a plus de probl\`{e}mes d'acc\`{e}s \`{a} un fichier. Cette fois-ci les messages d'erreur m'annoncent qu'il est impossible d'acc\'{e}der au \gls{CMS}. Je me dirige donc vers le CMS en question pour r\'{e}cup\'{e}rer son adresse puis vers le fichier parameters.xml dans lequel l'url du CMS est renseign\'{e}e, effectivement ce n'\'{e}tait pas la m\^{e}me, mais d'autre part en essayant d'acc\'{e}der au CMS dont il \'{e}tait question je constatais que celui-ci n'existait plus, je ne pouvais pas y acc\'{e}der. J'ai donc corrig\'{e} l'adresse du CMS sur lequel je voulais faire mon test.\\
+En ex\'{e}cutant une fois de plus j'ai \'{e}t\'{e} ravi de voir que mon test compilais, celui-ci ne faisait encore rien mais je pouvais alors commencer \`{a} manipuler mon document Web Intelligence en impl\'{e}mentant le code de mon test automatique.\\
+
+La question qui se posa alors \'{e}tait de savoir comment y acc\'{e}der et de quelle mani\`{e}re m'y prendre pour le modifier.\\
+En parcourant les tests automatiques existants et en cherchant les informations qui me manquaient, j'ai constat\'{e} avec surprise que nul part dans le code il n'y avait de commentaires pour expliquer la d\'{e}marche utilis\'{e}e ou la logique appliqu\'{e}e. Ce qui m'a troubl\'{e}, puisque l'on m'avais toujours enseign\'{e} que les commentaires sont essentiels dans toute impl\'{e}mentation. J'ai \'{e}videmment pos\'{e} la question pour en connaitre la raison. Les \'{e}quipes de d\'{e}veloppement et de test de Web Intelligence travaillant en suivant la m\'{e}thode agile, celles-ci sont cens\'{e}es \'{e}crire des codes clairs au point que le code lui-m\^{e}me suffit \`{a} sa compr\'{e}hension. Les quelques rares commentaires servant \`{a} expliquer le fonctionnement g\'{e}n\'{e}ral d'une grande portion de code. Je comprenais ce principe mais j'\'{e}tais d\'{e}rang\'{e} par le fait que chacun des objets utilis\'{e}s dans le code m'\'{e}taient inconnus, ce qui augmentait beaucoup le temps qu'il me fallait pour comprendre une certaine impl\'{e}mentation.\\ 
+
+En cherchant parmi les tests automatiques existants j'ai trouvé le code qui me permettrait de récupérer mon document :
+\begin{lstlisting}
+IRSReport monRapport = docCalc.getReportAurora(0);
+\end{lstlisting}
+
+L'objet \textquote{docCalc} appartenant à la super classe de ma classe de test, contient un grand nombre de méthodes permettant de manipuler un document Web Intelligence. L'argument \textquote{0} que je passe à la méthode me permet de récupérer le premier rapport que contient mon document. Pour compléter ce code ci-dessus et le faire ressembler à test il faut marquer le début et la fin du test. Le code complété étant le suivant :
+
+
+\begin{lstlisting}
+IRSReport reportAurora = docCalc.getReportAurora(0);
+startTestcaseStep("monTest");
+stopTestcaseStepWithAction();
+\end{lstlisting}
+ 
+En observant les logs de l'exécution de ce test, on remaque que la première méthode \textquote{startTestcaseStep("");} permet de marquer le début des tests, celle-ci ne fait rien d'autre que d'ajouter un log. Ensuite, \textquote{stopTestcaseStepWithAction();} marque non seulement la fin du test dans les logs mais aussi exécute une série d'actions qui sont décritent dans les logs. Il est intéressant de les noter ici car ces actions peuvent nous être très utiles.\\
+L'étude des ces logs m'a été très utiles car ceux-ci précisément se qui se passe et les différentes étapes de l'exécution du test.\\
+
+\subsubsection{Précisions sur les différentes actions de l'exécution d'un test}
+Les logs sont nombreux et j'ai passé beaucoup de temps à les analyser. J'ai pu en conclure les trois étapes essentielles, et évidentes, de l'exécution d'un test : l'avant test, le pendant et l'après. Un exemple d'une de ces sorties consoles que j'ai ainsi étudié est disponible annexe \ref{annexe:sortieConsole} page \pageref{annexe:sortieConsole} dans laquelle j'ai distingué les différentes parties depuis lesquelles les logs étaient générés.\\
+Pour faire ces obsvervations j'ai simplement ajouté des logs au moments clés de l'exécution : au début et à la fin du constructeur et de mon test (en distinguant la méthode de test et l'implémentation du test). Cela m'a permis d'observer et ainsi de comprendre les différentes étapes du test tels qu'ils étaient dans le Framework que j'utilisais. Les tests que j'implémentais étaient exécutés dans le cycle propre au Framework (la méthode \textquote{run()} dont je parle et la méthode contenant l'implémentation de mon test automatique):
+
+\begin{enumerate}
+	\item Avant la méthode \textquote{run()}
+	\item Pendant la méthode \textquote{run()}
+	\item Pendant la méthode \textquote{stopTestcaseStepWithAction();} (cette méthode étant comprise dans la méthode \textquote{run()})
+	\item Après la méthode \textquote{run()}
+\end{enumerate}
+
+
+
+
+
+
+Ensuite, cela recherche sur le CMS le dossier \textquote{Personnal documents} et y enregistre le document Web Intelligence suffixé par \textquote{_monTest}, l'argument que j'ai donné au lancement de celui-ci.\\
+Pour
+
+
+
+

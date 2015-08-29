@@ -1,0 +1,237 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Avant la méthode run %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+Check parameters first in: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\parameters.xml
+Resources parameters: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\cube\Resources_AURORA\
+IsClientServerDeployment value changed (replaced by parameters): false
+Log file.C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\logs\jeu_de_test_pierre\TestcaseCreateANewDocument.txt=
+[<]       -Testcase.java(startMSGStep) : Testcase.java(startTestcase) : Testcase TestcaseCreateANewDocument [START]
+[O]           -Testcase.java(okMSG) : Testcase.java(startTestcase) : Started at Mon Jul 28 14:32:20 CEST 2014   :: OK
+[<]           -initSession [START]
+[O]               -Session Manager inited   :: OK
+[<]               -getClusterName [START]
+[>]               -getClusterName [END]
+[<]               -getWebiServerName [START]
+[O]                   -AdaptiveProcessingServer to be monitored is MySIA.AdaptiveProcessingServer   :: OK
+[>]               -getWebiServerName [END]
+[O]               -Login with user "Administrator" on DEWDFTV01232.DHCP.PGDEV.SAP.CORP:6400   :: OK
+[>]           -initSession [END]
+[<]           -initRepoProxy [START]
+[O]               -Repository Proxy inited   :: OK
+[>]           -initRepoProxy [END]
+[<]           -initInfoStore [START]
+[>]           -initInfoStore [END]
+[<]           -initDefaults [START]
+[<]               -findInfoObjects [START]
+[O]                   -Try to find InfoObjects with name = "Administrator" and with type = "FavoritesFolder"   :: OK
+[<]                   -executeQuery [START]
+[O]                       -Try to execute query 'SELECT * FROM CI_INFOOBJECTS WHERE SI_KIND='FavoritesFolder' AND SI_NAME='Administrator''   :: OK
+[>]                   -executeQuery [END]
+[O]                   -1 InfoObject(s) found   :: OK
+[>]               -findInfoObjects [END]
+[<]               -executeQuery [START]
+[O]                   -Try to execute query 'SELECT * FROM CI_INFOOBJECTS WHERE SI_KIND='Folder' AND SI_PARENTID=0'   :: OK
+[>]               -executeQuery [END]
+[<]               -executeQuery [START]
+[O]                   -Try to execute query 'SELECT * FROM CI_INFOOBJECTS WHERE SI_ID='18''   :: OK
+[>]               -executeQuery [END]
+[>]           -initDefaults [END]
+[<]           -waitForWebiAlive [START]
+[>]           -waitForWebiAlive [END]
+[<]           -initWIReportEngine [START]
+[O]               -In case of Error, check that sdk.core.config is in classpath.   :: OK
+[<]               -getGlobalContext [START]
+[>]               -getGlobalContext [END]
+[O]               -report engine is ready   :: OK
+[>]           -initWIReportEngine [END]
+[<]           -getConnections [START]
+[<]               -executeQuery [START]
+[O]                   -Try to execute query 'SELECT SI_ID, SI_NAME FROM CI_APPOBJECTS WHERE SI_KIND='CCIS.DataConnection''   :: OK
+[>]               -executeQuery [END]
+[O]               -34 connection(s) found   :: OK
+[>]           -getConnections [END]
+[<]           -getUniverses [START]
+[<]               -executeQuery [START]
+[O]                   -Try to execute query 'SELECT SI_ID, SI_NAME FROM CI_APPOBJECTS WHERE SI_KIND='Universe''   :: OK
+[>]               -executeQuery [END]
+[O]               -26 universe(s) found   :: OK
+[>]           -getUniverses [END]
+[<]           -getWIReportServerPID [START]
+[O]               -Requesting MySIA.WebIntelligenceProcessingServer PID. Current time is: Mon Jul 28 14:32:29 CEST 2014   :: OK
+[O]               -MySIA.WebIntelligenceProcessingServer PID is: 3132. Current time is: Mon Jul 28 14:32:29 CEST 2014   :: OK
+[>]           -getWIReportServerPID [END]
+[<]           -cleanResultStorage [START]
+[O]               -Clear result folder: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\res\jeu_de_test_pierre\TestcaseCreateANewDocument\   :: OK
+[<]               -emptyFolder [START]
+[<]                   -emptyFolder [START]
+[O]                       -clean Folder: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\res\jeu_de_test_pierre\TestcaseCreateANewDocument\createdoc   :: OK
+[>]                   -emptyFolder [END]
+[O]                   -clean Folder: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\res\jeu_de_test_pierre\TestcaseCreateANewDocument\   :: OK
+[>]               -emptyFolder [END]
+[O]               -Clear result folder: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\ref\jeu_de_test_pierre\TestcaseCreateANewDocument\   :: OK
+[<]               -emptyFolder [START]
+[<]                   -emptyFolder [START]
+[O]                       -clean Folder: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\ref\jeu_de_test_pierre\TestcaseCreateANewDocument\createdoc   :: OK
+[>]                   -emptyFolder [END]
+[O]                   -clean Folder: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\ref\jeu_de_test_pierre\TestcaseCreateANewDocument\   :: OK
+[>]               -emptyFolder [END]
+[>]           -cleanResultStorage [END]
+[<]           -newAuroraDocument [START]
+[>]           -newAuroraDocument [END]
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pendant la méthode run %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+[<]           -updateStructureAurora [START]
+[>]           -updateStructureAurora [END]
+[<]           -Testcase step: createdoc [START]
+[<]               -newDocument based on unv BEACH [START]
+[<]                   -findUniverseInRoot [START]
+[O]                       -Try to find InfoObjects with name = "BEACH" and with type = "Universe"   :: OK
+[<]                       -executeQuery [START]
+[O]                           -Try to execute query 'SELECT SI_ID FROM CI_APPOBJECTS WHERE SI_NAME='Universes' AND SI_KIND='Folder' AND SI_PARENTID=95'   :: OK
+[>]                       -executeQuery [END]
+[O]                       -1 InfoObject(s) found   :: OK
+[<]                       -executeQuery [START]
+[O]                           -Try to execute query 'SELECT * FROM CI_APPOBJECTS WHERE SI_KIND='Universe' AND SI_NAME='BEACH' AND SI_PARENTID=532'   :: OK
+[>]                       -executeQuery [END]
+[O]                       -1 InfoObject(s) found   :: OK
+[>]                   -findUniverseInRoot [END]
+[<]                   -createUniverseDataSourceInfo unv cuid Af7KxGg_CDpFp.Uq.gt3D58 [START]
+[O]                       -- [DSL] create DataSourceInfo : OK   :: OK
+[>]                   -createUniverseDataSourceInfo unv cuid Af7KxGg_CDpFp.Uq.gt3D58 [END]
+[<]                   -DSLaddDataProvider [START]
+[O]                       -- [DSL] add new data provider : OK   :: OK
+[>]                   -DSLaddDataProvider [END]
+[O]                   -add a simple flat query   :: OK
+[>]               -newDocument based on unv BEACH [END]
+[<]               -createAuroraReport My Report [START]
+[O]                   -report.setName My Report   :: OK
+[O]                   -_repStruct.getChildren() - size: 0   :: OK
+[>]               -createAuroraReport My Report [END]
+[<]               -createReportBody(Aurora) [START]
+[>]               -createReportBody(Aurora) [END]
+[<]               -applyFormat [START]
+[>]               -applyFormat [END]
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pendant la méthode StopTestcaseStepWithAction()  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+[<]               -applyFormat [START]
+[>]               -applyFormat [END]
+[<]               -verifyWithRef - PageMode Listing [START]
+[<]                   -prepareResFiles [START]
+[<]                       -createPath [START]
+[O]                           -Directory created: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\res\jeu_de_test_pierre\TestcaseCreateANewDocument\createdoc   :: OK
+[>]                       -createPath [END]
+[<]                       -checkSupportedViews [START]
+[>]                       -checkSupportedViews [END]
+[<]                       -saveAsXMLaurora [START]
+[<]                           -saveReportAsCharacterViewAurora [START]
+[O]                               -set LISTING for pagination mode   :: OK
+[O]                               -navigate to report '1'   :: OK
+[O]                               -get CharacterView view for report: My Report   :: OK
+[>]                           -saveReportAsCharacterViewAurora [END]
+[O]                           -save as xml: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\res\jeu_de_test_pierre\TestcaseCreateANewDocument\createdoc   :: OK
+[>]                       -saveAsXMLaurora [END]
+[<]                       -XML2TXT [START]
+[>]                       -XML2TXT [END]
+[<]                       -saveDocInPersonal [START]
+[<]                           -search (Folder) [START]
+[<]                               -findInfoObjects [START]
+[O]                                   -Try to find InfoObjects with name = "Personal Documents" and with type = "Folder"   :: OK
+[<]                                   -executeQuery [START]
+[O]                                       -Try to execute query 'SELECT * FROM CI_INFOOBJECTS WHERE SI_KIND='Folder' AND SI_NAME='Personal Documents''   :: OK
+[>]                                   -executeQuery [END]
+[O]                                   -1 InfoObject(s) found   :: OK
+[>]                               -findInfoObjects [END]
+[>]                           -search (Folder) [END]
+[<]                           -saveDocument_aurora [START]
+[<]                               -search (Folder) [START]
+[<]                                   -findInfoObjects [START]
+[O]                                       -Try to find InfoObjects with name = "Personal Documents" and with type = "Folder"   :: OK
+[<]                                       -executeQuery [START]
+[O]                                           -Try to execute query 'SELECT * FROM CI_INFOOBJECTS WHERE SI_KIND='Folder' AND SI_NAME='Personal Documents''   :: OK
+[>]                                       -executeQuery [END]
+[O]                                       -1 InfoObject(s) found   :: OK
+[>]                                   -findInfoObjects [END]
+[>]                               -search (Folder) [END]
+[<]                               -search (Document) [START]
+[<]                                   -search (Folder) [START]
+[<]                                       -findInfoObjects [START]
+[O]                                           -Try to find InfoObjects with name = "Personal Documents" and with type = "Folder"   :: OK
+[<]                                           -executeQuery [START]
+[O]                                               -Try to execute query 'SELECT * FROM CI_INFOOBJECTS WHERE SI_KIND='Folder' AND SI_NAME='Personal Documents''   :: OK
+[>]                                           -executeQuery [END]
+[O]                                           -1 InfoObject(s) found   :: OK
+[>]                                       -findInfoObjects [END]
+[>]                                   -search (Folder) [END]
+[<]                                   -findInfoObjects [START]
+[O]                                       -Try to find InfoObjects with name = "TestcaseCreateANewDocument_createdoc" and with type = "Webi"   :: OK
+[<]                                       -executeQuery [START]
+[O]                                           -Try to execute query 'SELECT * FROM CI_INFOOBJECTS WHERE SI_KIND='Webi' AND SI_NAME='TestcaseCreateANewDocument_createdoc''   :: OK
+[>]                                       -executeQuery [END]
+[O]                                       -1 InfoObject(s) found   :: OK
+[>]                                   -findInfoObjects [END]
+[>]                               -search (Document) [END]
+[O]                               -Document TestcaseCreateANewDocument_createdoc saved in Personal Documents   :: OK
+[>]                           -saveDocument_aurora [END]
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Après la méthode run  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+[O]                           -document saved in default personal folder: TestcaseCreateANewDocument_createdoc   :: OK
+[>]                       -saveDocInPersonal [END]
+[>]                   -prepareResFiles [END]
+[<]                   -prepareRefFiles [START]
+[<]                       -getFileNamesWithExtension [START]
+[O]                           -Get 1 files with extension "txt"   :: OK
+[>]                       -getFileNamesWithExtension [END]
+[<]                       -copyFile [START]
+[O]                           -copy file from C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\cube\Resources_AURORA\storage\auto\jeu_de_test_pierre\TestcaseCreateANewDocument\txt\TestcaseCreateANewDocument_createdoc1.txt to C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\ref\jeu_de_test_pierre\TestcaseCreateANewDocument\createdoc\TestcaseCreateANewDocument_createdoc1.txt in 0s   :: OK
+[>]                       -copyFile [END]
+[>]                   -prepareRefFiles [END]
+[<]                   -createPath [START]
+[O]                       -Directory already exists: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\ref\jeu_de_test_pierre\TestcaseCreateANewDocument\createdoc   :: OK
+[>]                   -createPath [END]
+[<]                   -getFileNamesWithExtension [START]
+[O]                       -Get 1 files with extension "txt"   :: OK
+[>]                   -getFileNamesWithExtension [END]
+[<]                   -comparePreparedFiles [START]
+[<]                       -compareTXTFiles [START]
+[O]                           -C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\res\jeu_de_test_pierre\TestcaseCreateANewDocument\createdoc\TestcaseCreateANewDocument_createdoc1.txt and C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\results\Your Build Number\ref\jeu_de_test_pierre\TestcaseCreateANewDocument\createdoc\TestcaseCreateANewDocument_createdoc1.txt are SAME   :: OK
+[>]                       -compareTXTFiles [END]
+[>]                   -comparePreparedFiles [END]
+[>]               -verifyWithRef - PageMode Listing [END]
+[>]           -Testcase step: createdoc [END]
+[<]           -closeDocument [START]
+[>]           -closeDocument [END]
+[<]           -closeAll [START]
+[>]           -closeAll [END]
+[<]           -logoff [START]
+[O]               -close report engines   :: OK
+[>]           -logoff [END]
+[<]           -logoff [START]
+[O]               -Close session   :: OK
+[>]           -logoff [END]
+[O]           -Total Time Spent for Testcase TestcaseCreateANewDocument = 22.083 second(s)   :: OK
+[O]           -Finished at Mon Jul 28 14:32:42 CEST 2014   :: OK
+[>]       - Testcase TestcaseCreateANewDocument [END]
+[TestcaseCreateANewDocument]		--> PASSED : 'RebeanTestPlanDefinition.java(StressPF) : Min=1.4065508E12|Max=1.4065508E12|Average=1.4065508E12|Count=1|CPUTime=0|PeakVM=0|LeakVM=0'
+Passed.TestcaseCreateANewDocument=
+
+
+
+
+

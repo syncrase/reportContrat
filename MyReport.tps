@@ -13,12 +13,12 @@ NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1570
 NormalPos.bottom=592
-Class=BibTeXView
-Document=bibliographie\biblio.bib
+Class=LaTeXView
+Document=MyReport.tex
 
 [Frame0_View0,0]
-TopLine=6
-Cursor=850
+TopLine=4
+Cursor=565
 
 [Frame1]
 Flags=0
@@ -32,11 +32,11 @@ NormalPos.top=26
 NormalPos.right=1570
 NormalPos.bottom=592
 Class=LaTeXView
-Document=glossaire\glossaire.tex
+Document=introduction\introduction.tex
 
 [Frame1_View0,0]
 TopLine=0
-Cursor=106
+Cursor=1668
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=26
 NormalPos.right=1570
 NormalPos.bottom=592
 Class=LaTeXView
-Document=MyReport.tex
+Document=conclusion\bilan.tex
 
 [Frame2_View0,0]
-TopLine=50
-Cursor=1730
+TopLine=28
+Cursor=4601
 
 [Frame3]
 Flags=0
@@ -68,11 +68,11 @@ NormalPos.top=26
 NormalPos.right=1570
 NormalPos.bottom=592
 Class=LaTeXView
-Document=preambule\preambule.tex
+Document=conclusion\conclusion.tex
 
 [Frame3_View0,0]
-TopLine=88
-Cursor=3324
+TopLine=0
+Cursor=91
 
 [Frame4]
 Flags=0
@@ -86,11 +86,11 @@ NormalPos.top=26
 NormalPos.right=1570
 NormalPos.bottom=592
 Class=LaTeXView
-Document=missions\Software-tester.tex
+Document=glossaire\glossaire.tex
 
 [Frame4_View0,0]
-TopLine=398
-Cursor=847
+TopLine=5
+Cursor=709
 
 [Frame5]
 Flags=0
@@ -103,12 +103,12 @@ NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1570
 NormalPos.bottom=592
-Class=LaTeXView
-Document=annexes\JenkinsBasis.tex
+Class=BibTeXView
+Document=bibliographie\biblio.bib
 
 [Frame5_View0,0]
 TopLine=0
-Cursor=0
+Cursor=1246
 
 [Frame6]
 Flags=0
@@ -122,11 +122,11 @@ NormalPos.top=26
 NormalPos.right=1570
 NormalPos.bottom=592
 Class=LaTeXView
-Document=tipsNTricks.tex
+Document=remerciements\remerciements.tex
 
 [Frame6_View0,0]
 TopLine=0
-Cursor=4
+Cursor=0
 
 [Frame7]
 Flags=0
@@ -143,8 +143,8 @@ Class=LaTeXView
 Document=Presentation-de-l-entreprise\Presentation-de-l-equipe.tex
 
 [Frame7_View0,0]
-TopLine=0
-Cursor=107
+TopLine=57
+Cursor=1873
 
 [Frame8]
 Flags=0
@@ -158,85 +158,13 @@ NormalPos.top=26
 NormalPos.right=1570
 NormalPos.bottom=592
 Class=LaTeXView
-Document=Presentation-de-l-entreprise\Presentation-de-l-entreprise.tex
-
-[Frame8_View0,0]
-TopLine=262
-Cursor=12542
-
-[Frame9]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1570
-NormalPos.bottom=592
-Class=LaTeXView
-Document=indexMemo.tex
-
-[Frame9_View0,0]
-TopLine=0
-Cursor=249
-
-[Frame10]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1570
-NormalPos.bottom=592
-Class=LaTeXView
-Document=missions\Migration.tex
-
-[Frame10_View0,0]
-TopLine=134
-Cursor=8782
-
-[Frame11]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1570
-NormalPos.bottom=592
-Class=LaTeXView
-Document=annexes\DParameters.tex
-
-[Frame11_View0,0]
-TopLine=0
-Cursor=22
-
-[Frame12]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1570
-NormalPos.bottom=592
-Class=LaTeXView
 Document=missions\JenkinsPlugin.tex
 
-[Frame12_View0,0]
-TopLine=118
-Cursor=17287
+[Frame8_View0,0]
+TopLine=294
+Cursor=18110
 
 [SessionInfo]
-FrameCount=13
-ActiveFrame=2
+FrameCount=9
+ActiveFrame=7
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.8.14)  27 AUG 2015 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.8.14)  29 AUG 2015 15:19
 entering extended mode
 **MyReport.tex
 (MyReport.tex
@@ -1448,7 +1448,7 @@ Package: glossary-tree 2015/07/17 v4.17 (NLCT)
 ))
 \glswrite=\write6
 \glo@main@file=\write7
-Package glossaries Info: Writing glossary file MyReport.glo on input line 113.
+Package glossaries Info: Writing glossary file MyReport.glo on input line 114.
 
 (C:\Users\I310911\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
 \lst@mode=\count347
@@ -1488,20 +1488,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
- (MyReport.aux
-
-LaTeX Warning: Label `figure:' multiply defined.
-
-
-LaTeX Warning: Label `figure:' multiply defined.
-
-
-LaTeX Warning: Label `figure:' multiply defined.
-
-
-LaTeX Warning: Label `figure:' multiply defined.
-
-)
+ (MyReport.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -1516,7 +1503,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5.
@@ -1610,85 +1598,14 @@ Package biblatex Info: ... file 'MyReport.bbl' found.
 Package biblatex Info: Reference section=0 on input line 5.
 Package biblatex Info: Reference segment=0 on input line 5.
 \c@lstlisting=\count362
- (page-de-couverture/page-de-couverture.tex
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=512.14963pt
-* \textheight=759.6886pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
-* \topmargin=-63.66466pt
-* \headheight=14.2pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=106.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- <images/SAP.png, id=240, 2007.5pt x 1023.825pt>
-File: images/SAP.png Graphic file (type png)
-
-<use images/SAP.png>
-Package pdftex.def Info: images/SAP.png used on input line 13.
-(pdftex.def)             Requested size: 147.5847pt x 75.28152pt.
- <images/ESIGELEC.jpg, id=242, 426.75435pt x 93.7101pt>
-File: images/ESIGELEC.jpg Graphic file (type jpg)
- <use images/ESIGELEC.jpg>
-Package pdftex.def Info: images/ESIGELEC.jpg used on input line 14.
-(pdftex.def)             Requested size: 342.84955pt x 75.28152pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
-
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[1
+ (MyReport.toc) [1
 
 
 
-
-{C:/Users/I310911/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/SAP.png> <./images/ESIGELEC.jpg>])
-(remerciements/remerciements.tex [2
-
-
-]) [3] [4
-
-] (MyReport.toc [5]) [6] (introduction/introduction.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 12--24
-
- []
-
-(Presentation-de-l-entreprise/Presentation-de-l-entreprise.tex [1
-
-
-] [2
+{C:/Users/I310911/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
+(missions/Software-tester.tex
 Chapitre 1.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 1.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
@@ -1698,1059 +1615,91 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 1.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 6.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
-[][][]\T1/cmr/m/n/9 .[][][][]$\T1/cmtt/m/n/9 http : / / www . sap . com / bin / sapcom / en _ us / downloadasset . 2015-
-[]07-[]jul-[]22-[]01 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
-
- []
-
-<images/sap-executive-mcdermott.jpg, id=319, 100.375pt x 130.4875pt>
-File: images/sap-executive-mcdermott.jpg Graphic file (type jpg)
- <use images/sap-executive-mcdermott.jpg>
-Package pdftex.def Info: images/sap-executive-mcdermott.jpg used on input line 17.
-(pdftex.def)             Requested size: 45.50526pt x 59.15662pt.
-
-<images/rob-enslin.png, id=320, 100.375pt x 130.4875pt>
-File: images/rob-enslin.png Graphic file (type png)
- <use images/rob-enslin.png>
-Package pdftex.def Info: images/rob-enslin.png used on input line 29.
-(pdftex.def)             Requested size: 45.50526pt x 59.15662pt.
-
-<images/bernd-leukert.png, id=321, 100.375pt x 130.4875pt>
-File: images/bernd-leukert.png Graphic file (type png)
- <use images/bernd-leukert.png>
-Package pdftex.def Info: images/bernd-leukert.png used on input line 41.
-(pdftex.def)             Requested size: 45.50526pt x 59.15662pt.
-
-<images/lika-mucic.png, id=322, 100.375pt x 130.4875pt>
-File: images/lika-mucic.png Graphic file (type png)
- <use images/lika-mucic.png>
-Package pdftex.def Info: images/lika-mucic.png used on input line 53.
-(pdftex.def)             Requested size: 45.50526pt x 59.15662pt.
-
-<images/oswald.jpg, id=323, 100.375pt x 130.4875pt>
-File: images/oswald.jpg Graphic file (type jpg)
- <use images/oswald.jpg>
-Package pdftex.def Info: images/oswald.jpg used on input line 65.
-(pdftex.def)             Requested size: 45.50526pt x 59.15662pt.
-
-
-LaTeX Warning: Float too large for page by 27.93419pt on input line 77.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3] [4 <./images/sap-executive-mcdermott.jpg> <./images/rob-enslin.png> <./images/bernd-leukert.png (PNG copy)> <./image
-s/lika-mucic.png> <./images/oswald.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-[5
-
-] [6] <images/performance.png, id=365, 102.1416pt x 104.5506pt>
-File: images/performance.png Graphic file (type png)
- <use images/performance.png>
-Package pdftex.def Info: images/performance.png used on input line 180.
-(pdftex.def)             Requested size: 102.14134pt x 104.55034pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-<images/ci.png, id=373, 102.1416pt x 104.5506pt>
-File: images/ci.png Graphic file (type png)
- <use images/ci.png>
-Package pdftex.def Info: images/ci.png used on input line 196.
-(pdftex.def)             Requested size: 102.14134pt x 104.55034pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
-
- []
-
-<images/automation.png, id=374, 102.6234pt x 104.5506pt>
-File: images/automation.png Graphic file (type png)
- <use images/automation.png>
-Package pdftex.def Info: images/automation.png used on input line 206.
-(pdftex.def)             Requested size: 102.62314pt x 104.55034pt.
-
-Underfull \vbox (badness 7047) has occurred while \output is active []
-
- [8 <./images/performance.png> <./images/ci.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
-
- []
-
-<images/produitisation.png, id=383, 102.1416pt x 104.5506pt>
-File: images/produitisation.png Graphic file (type png)
- <use images/produitisation.png>
-Package pdftex.def Info: images/produitisation.png used on input line 219.
-(pdftex.def)             Requested size: 102.14134pt x 104.55034pt.
-
-<images/bugtest.png, id=384, 102.1416pt x 104.5506pt>
-File: images/bugtest.png Graphic file (type png)
- <use images/bugtest.png>
-Package pdftex.def Info: images/bugtest.png used on input line 228.
-(pdftex.def)             Requested size: 102.14134pt x 104.55034pt.
- [9 <./images/automation.png> <./images/produitisation.png> <./images/bugtest.png>] <images/testcoverage.png, id=395, 10
-2.1416pt x 104.5506pt>
-File: images/testcoverage.png Graphic file (type png)
-
-<use images/testcoverage.png>
-Package pdftex.def Info: images/testcoverage.png used on input line 237.
-(pdftex.def)             Requested size: 102.14134pt x 104.55034pt.
- <images/adept.png, id=396, 102.6234pt x 104.5506pt>
-File: images/adept.png Graphic file (type png)
- <use images/adept.png>
-Package pdftex.def Info: images/adept.png used on input line 246.
-(pdftex.def)             Requested size: 102.62314pt x 104.55034pt.
-
-<images/validationtool.png, id=397, 100.2144pt x 102.6234pt>
-File: images/validationtool.png Graphic file (type png)
- <use images/validationtool.png>
-Package pdftex.def Info: images/validationtool.png used on input line 255.
-(pdftex.def)             Requested size: 100.21414pt x 102.62314pt.
-)
-(Presentation-de-l-entreprise/Presentation-de-l-equipe.tex [10 <./images/testcoverage.png> <./images/adept.png> <./image
-s/validationtool.png>] [11] [12
-
-]
-Chapitre 2.
-<images/allRaphaelTeam.png, id=416, 694.2738pt x 423.984pt>
-File: images/allRaphaelTeam.png Graphic file (type png)
- <use images/allRaphaelTeam.png>
-Package pdftex.def Info: images/allRaphaelTeam.png used on input line 13.
-(pdftex.def)             Requested size: 501.90312pt x 306.51036pt.
-
-Overfull \hbox (83.64944pt too wide) in paragraph at lines 13--14
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/allRaphaelTeam2.png, id=417, 694.2738pt x 420.6114pt>
-File: images/allRaphaelTeam2.png Graphic file (type png)
- <use images/allRaphaelTeam2.png>
-Package pdftex.def Info: images/allRaphaelTeam2.png used on input line 21.
-(pdftex.def)             Requested size: 501.90312pt x 304.07224pt.
-
-Overfull \hbox (83.64944pt too wide) in paragraph at lines 21--22
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/allRaphaelTeam3.png, id=418, 697.1646pt x 280.8894pt>
-File: images/allRaphaelTeam3.png Graphic file (type png)
- <use images/allRaphaelTeam3.png>
-Package pdftex.def Info: images/allRaphaelTeam3.png used on input line 29.
-(pdftex.def)             Requested size: 460.08159pt x 185.36615pt.
-
-Overfull \hbox (41.82791pt too wide) in paragraph at lines 29--30
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/8floor.jpg, id=419, 722.7pt x 307.8702pt>
-File: images/8floor.jpg Graphic file (type jpg)
- <use images/8floor.jpg>
-Package pdftex.def Info: images/8floor.jpg used on input line 37.
-(pdftex.def)             Requested size: 501.90312pt x 213.81178pt.
-
-Overfull \hbox (83.64944pt too wide) in paragraph at lines 37--38
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/positionnement1.png, id=420, 978.65625pt x 529.22719pt>
-File: images/positionnement1.png Graphic file (type png)
- <use images/positionnement1.png>
-Package pdftex.def Info: images/positionnement1.png used on input line 44.
-(pdftex.def)             Requested size: 501.90312pt x 271.42046pt.
-
-Overfull \hbox (83.64944pt too wide) in paragraph at lines 44--45
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/positionnement2.png, id=421, 976.39781pt x 568.37344pt>
-File: images/positionnement2.png Graphic file (type png)
- <use images/positionnement2.png>
-Package pdftex.def Info: images/positionnement2.png used on input line 52.
-(pdftex.def)             Requested size: 501.90312pt x 292.16487pt.
-
-Overfull \hbox (83.64944pt too wide) in paragraph at lines 52--53
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-
-LaTeX Warning: Reference `pdf:org' on page 13 undefined on input line 65.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-
- []
-
-[13] [14 <./images/allRaphaelTeam.png>]
-
-LaTeX Warning: Text page 15 contains only floats.
-
-[15 <./images/allRaphaelTeam2.png> <./images/allRaphaelTeam3.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16 <./images/8floor.jpg> <./images/positionnement1.png>]) (missions/Software-tester.tex [17 <./images/positionnement2.
-png>] [18
-
-]
-Chapitre 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-<images/testProcessAtSAP.jpg, id=480, 822.07124pt x 834.11626pt>
-File: images/testProcessAtSAP.jpg Graphic file (type jpg)
- <use images/testProcessAtSAP.jpg>
-Package pdftex.def Info: images/testProcessAtSAP.jpg used on input line 42.
-(pdftex.def)             Requested size: 418.25368pt x 424.37546pt.
- [20]
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21 <./images/testProcessAtSAP.jpg>]
-
-LaTeX Warning: Reference `' on page 22 undefined on input line 68.
-
-
-LaTeX Warning: Reference `' on page 22 undefined on input line 68.
-
-[22] (scripts/basicStaticTest.java [23]) <images/scriptXmlSavingRef.png, id=531, 215.30438pt x 113.67468pt>
-File: images/scriptXmlSavingRef.png Graphic file (type png)
-
-<use images/scriptXmlSavingRef.png>
-Package pdftex.def Info: images/scriptXmlSavingRef.png used on input line 132.
-(pdftex.def)             Requested size: 215.30385pt x 113.6744pt.
- [24 <./images/scriptXmlSavingRef.png>] (scripts/basicDynamicTestPlan.java)
-(scripts/basicDynamicTestCase.java
-Overfull \hbox (32.14122pt too wide) in paragraph at lines 14--15
-[][][][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25])
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-[]\T1/cmr/m/n/10.95 ...\Workspace_Aurora\rebean\results\Your Build Num-ber\res\{ script-
- []
-
-[26] <images/savedReferenceDocPath.png, id=614, 375.65344pt x 297.36093pt>
-File: images/savedReferenceDocPath.png Graphic file (type png)
- <use images/savedReferenceDocPath.png>
-Package pdftex.def Info: images/savedReferenceDocPath.png used on input line 197.
-(pdftex.def)             Requested size: 375.65251pt x 297.3602pt.
-
-<images/savedGeneratedDocPath.png, id=615, 426.84468pt x 249.18094pt>
-File: images/savedGeneratedDocPath.png Graphic file (type png)
- <use images/savedGeneratedDocPath.png>
-Package pdftex.def Info: images/savedGeneratedDocPath.png used on input line 203.
-(pdftex.def)             Requested size: 426.84364pt x 249.18031pt.
-
-Overfull \hbox (8.58997pt too wide) in paragraph at lines 203--204
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27 <./images/savedReferenceDocPath.png>]
-<images/localSavedReferences.png, id=624, 221.32687pt x 208.52907pt>
-File: images/localSavedReferences.png Graphic file (type png)
- <use images/localSavedReferences.png>
-Package pdftex.def Info: images/localSavedReferences.png used on input line 215.
-(pdftex.def)             Requested size: 221.32631pt x 208.52855pt.
-
-Overfull \hbox (2.40352pt too wide) in paragraph at lines 209--219
-\T1/cmr/m/n/10.95 ...\Resources_AURORA\storage\auto\{scriptName}\CM_{cmNumber}_{short
- []
-
-[28 <./images/savedGeneratedDocPath.png>] <images/JCWB-CRs.png, id=634, 971.12813pt x 300.3722pt>
-File: images/JCWB-CRs.png Graphic file (type png)
-
-<use images/JCWB-CRs.png>
-Package pdftex.def Info: images/JCWB-CRs.png used on input line 244.
-(pdftex.def)             Requested size: 418.25368pt x 129.36377pt.
- <images/diffAgainst.png, id=637, 1419.05156pt x 697.8572pt>
-File: images/diffAgainst.png Graphic file (type png)
- <use images/diffAgainst.png>
-Package pdftex.def Info: images/diffAgainst.png used on input line 251.
-(pdftex.def)             Requested size: 418.25368pt x 205.68506pt.
-
-[29 <./images/localSavedReferences.png> <./images/JCWB-CRs.png>]
-<images/testsRelations.jpg, id=644, 488.82625pt x 73.27374pt>
-File: images/testsRelations.jpg Graphic file (type jpg)
- <use images/testsRelations.jpg>
-Package pdftex.def Info: images/testsRelations.jpg used on input line 268.
-(pdftex.def)             Requested size: 418.25368pt x 62.69664pt.
- [30 <./images/diffAgainst.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 273--275
-
- []
-
-<images/testEmptyShell.jpg, id=660, 986.68625pt x 1046.91125pt>
-File: images/testEmptyShell.jpg Graphic file (type jpg)
- <use images/testEmptyShell.jpg>
-Package pdftex.def Info: images/testEmptyShell.jpg used on input line 288.
-(pdftex.def)             Requested size: 418.25368pt x 443.78922pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--291
-
- []
-
-<images/usedFilesForTests.jpg, id=661, 279.0425pt x 429.605pt>
-File: images/usedFilesForTests.jpg Graphic file (type jpg)
- <use images/usedFilesForTests.jpg>
-Package pdftex.def Info: images/usedFilesForTests.jpg used on input line 294.
-(pdftex.def)             Requested size: 167.2989pt x 257.57487pt.
- [31 <./images/testsRelations.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32 <./images/testEmptyShell.jpg>] [33 <./images/usedFilesForTests.jpg>] <images/widFileLocation.png, id=689, 654.19406
-pt x 293.59688pt>
-File: images/widFileLocation.png Graphic file (type png)
- <use images/widFileLocation.png>
-Package pdftex.def Info: images/widFileLocation.png used on input line 320.
-(pdftex.def)             Requested size: 418.25368pt x 187.70871pt.
-
-[34 <./images/widFileLocation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-[35
-
-]) (missions/Migration.tex [36]
-Chapitre 4.
-
-Overfull \hbox (16.0042pt too wide) in paragraph at lines 3--3
-[]\T1/cmr/bx/n/14.4 Qu'est-ce que Jira et Java Cor-rec-tion Work-Bench (JCWB) 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
-
- []
-
-[37
-
-] <images/radiatorActual.png, id=721, 1428.08531pt x 744.53156pt>
-File: images/radiatorActual.png Graphic file (type png)
- <use images/radiatorActual.png>
-Package pdftex.def Info: images/radiatorActual.png used on input line 30.
-(pdftex.def)             Requested size: 418.25368pt x 218.05577pt.
- [38 <./images/radiatorActual.png>] <images/RadiatorInformationSources.jpg, id=734, 208.78pt x 208.78pt>
-File: images/RadiatorInformationSources.jpg Graphic file (type jpg)
-
-<use images/RadiatorInformationSources.jpg>
-Package pdftex.def Info: images/RadiatorInformationSources.jpg used on input line 51.
-(pdftex.def)             Requested size: 104.38972pt x 104.38972pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
-
- []
-
-<images/annotationJava.png, id=737, 666.99188pt x 165.61874pt>
-File: images/annotationJava.png Graphic file (type png)
- <use images/annotationJava.png>
-Package pdftex.def Info: images/annotationJava.png used on input line 66.
-(pdftex.def)             Requested size: 418.25368pt x 103.85767pt.
- [39 <./images/RadiatorInformationSources.jpg> <./images/annotationJava.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
-
- []
-
-<images/bugManagementProcess.png, id=747, 953.06062pt x 583.42969pt>
-File: images/bugManagementProcess.png Graphic file (type png)
- <use images/bugManagementProcess.png>
-Package pdftex.def Info: images/bugManagementProcess.png used on input line 83.
-(pdftex.def)             Requested size: 418.25368pt x 256.04216pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--96
-
- []
-
-[40 <./images/bugManagementProcess.png>]) (missions/JenkinsPlugin.tex [41] [42
-
-]
-Chapitre 5.
-
+(missions/testtravailrealise.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--9
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-<images/reportingPluginEnvironmentAfter.jpg, id=771, 264.23718pt x 254.45062pt>
-File: images/reportingPluginEnvironmentAfter.jpg Graphic file (type jpg)
+[1
 
-<use images/reportingPluginEnvironmentAfter.jpg>
-Package pdftex.def Info: images/reportingPluginEnvironmentAfter.jpg used on input line 12.
-(pdftex.def)             Requested size: 264.23653pt x 254.45pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+]
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[44 <./images/reportingPluginEnvironmentAfter.jpg>] (scripts/test-defects.xml [45])
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+<images/docsample.png, id=51, 207.77625pt x 331.2375pt>
+File: images/docsample.png Graphic file (type png)
+ <use images/docsample.png>
+Package pdftex.def Info: images/docsample.png used on input line 27.
+(pdftex.def)             Requested size: 207.77573pt x 331.23668pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+[2 <./images/docsample.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
-[46]
-Overfull \hbox (6.24211pt too wide) in paragraph at lines 90--90
-[][][]\T1/cmr/m/n/9 .[][][][]$\T1/cmtt/m/n/9 https : / / cleantestcode . wordpress . com / 2013 / 11 / 03 / how-[]to-[]w
-rite-[]a-[]jenkins-[]plugin-[]part-[]1/$[][]| 
- []
+)) [3] [4
+
+] (MyReport.gls) [5
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
- []
+] [6
 
-(C:\Users\I310911\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
+] (MyReport.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(C:\Users\I310911\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [47]
-<images/hpiCreate.png, id=861, 296.60812pt x 191.21437pt>
-File: images/hpiCreate.png Graphic file (type png)
- <use images/hpiCreate.png>
-Package pdftex.def Info: images/hpiCreate.png used on input line 137.
-(pdftex.def)             Requested size: 296.60739pt x 191.2139pt.
-
-Overfull \hbox (26.06375pt too wide) in paragraph at lines 146--158
-[][] 
- []
-
-
-Underfull \vbox (badness 2903) has occurred while \output is active []
-
- [48 <./images/hpiCreate.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
-
- []
-
-<images/firstJenkinsWhenGenerateTheSkeletonPlugin.png, id=877, 484.81125pt x 359.09157pt>
-File: images/firstJenkinsWhenGenerateTheSkeletonPlugin.png Graphic file (type png)
-
-<use images/firstJenkinsWhenGenerateTheSkeletonPlugin.png>
-Package pdftex.def Info: images/firstJenkinsWhenGenerateTheSkeletonPlugin.png used on input line 180.
-(pdftex.def)             Requested size: 418.25368pt x 309.80995pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[49] [50 <./images/firstJenkinsWhenGenerateTheSkeletonPlugin.png>]
-<images/listviewJavaDoc.png, id=899, 528.47438pt x 39.14626pt>
-File: images/listviewJavaDoc.png Graphic file (type png)
- <use images/listviewJavaDoc.png>
-Package pdftex.def Info: images/listviewJavaDoc.png used on input line 201.
-(pdftex.def)             Requested size: 418.25368pt x 30.98193pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-
- []
-
-<images/listviewSearch.png, id=902, 278.54062pt x 138.5175pt>
-File: images/listviewSearch.png Graphic file (type png)
- <use images/listviewSearch.png>
-Package pdftex.def Info: images/listviewSearch.png used on input line 230.
-(pdftex.def)             Requested size: 278.53993pt x 138.51715pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
-
- []
-
-[51 <./images/listviewJavaDoc.png>] <images/cssInit.png, id=917, 128.73094pt x 142.28156pt>
-File: images/cssInit.png Graphic file (type png)
- <use images/cssInit.png>
-Package pdftex.def Info: images/cssInit.png used on input line 241.
-(pdftex.def)             Requested size: 128.7306pt x 142.2812pt.
-
-<images/cssInitJS.png, id=918, 234.1247pt x 57.96657pt>
-File: images/cssInitJS.png Graphic file (type png)
- <use images/cssInitJS.png>
-Package pdftex.def Info: images/cssInitJS.png used on input line 248.
-(pdftex.def)             Requested size: 234.12411pt x 57.96642pt.
-
-<images/dashboardGenesis.jpg, id=919, 1594.95876pt x 1074.0125pt>
-File: images/dashboardGenesis.jpg Graphic file (type jpg)
- <use images/dashboardGenesis.jpg>
-Package pdftex.def Info: images/dashboardGenesis.jpg used on input line 268.
-(pdftex.def)             Requested size: 591.5302pt x 398.31252pt.
-
-
-LaTeX Warning: Float too large for page by 25.72864pt on input line 271.
-
-
-Underfull \vbox (badness 4556) has occurred while \output is active []
-
- [52 <./images/listviewSearch.png> <./images/cssInit.png> <./images/cssInitJS.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/myDash.jpg, id=927, 1800.7275pt x 1060.96375pt>
-File: images/myDash.jpg Graphic file (type jpg)
- <use images/myDash.jpg>
-Package pdftex.def Info: images/myDash.jpg used on input line 276.
-(pdftex.def)             Requested size: 591.5302pt x 348.5164pt.
-
-
-LaTeX Warning: Float too large for page by 25.72864pt on input line 279.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (conclusion/conclusion.tex [53] [54 <./images/dashboardGenesis.jpg>] [55 <./images/myDash.jpg>] [56
-
-]) [57] [58
-
-]
-(annexes/annexeTestLevels.tex
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 788.14134pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=540.60239pt
-* \textheight=788.14134pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-106.34378pt
-* \headheight=14.2pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=106.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-Annexe A.
-<images/TestingLevels.png, id=955, 958.3303pt x 514.17094pt>
-File: images/TestingLevels.png Graphic file (type png)
- <use images/TestingLevels.png>
-Package pdftex.def Info: images/TestingLevels.png used on input line 7.
-(pdftex.def)             Requested size: 551.69653pt x 295.99905pt.
- [59
-
-
- <./images/TestingLevels.png>]) (annexes/AutomationResults.tex
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 788.14134pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=540.60239pt
-* \textheight=788.14134pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-106.34378pt
-* \headheight=14.2pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=106.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- [60
-
-
-
-
-]
-Annexe B.
-<images/AutomationResults.pdf, id=965, 597.53139pt x 845.0561pt>
-File: images/AutomationResults.pdf Graphic file (type pdf)
- <use images/AutomationResults.pdf>
-Package pdftex.def Info: images/AutomationResults.pdf used on input line 12.
-(pdftex.def)             Requested size: 597.52992pt x 845.05405pt.
-File: images/AutomationResults.pdf Graphic file (type pdf)
-
-<use images/AutomationResults.pdf>
-Package pdftex.def Info: images/AutomationResults.pdf used on input line 12.
-(pdftex.def)             Requested size: 597.52992pt x 845.05405pt.
- <images/AutomationResults.pdf, id=968, page=1, 597.53139pt x 845.0561pt>
-File: images/AutomationResults.pdf Graphic file (type pdf)
-
-<use images/AutomationResults.pdf, page 1>
-Package pdftex.def Info: images/AutomationResults.pdf, page1 used on input line 12.
-(pdftex.def)             Requested size: 597.52992pt x 845.05405pt.
-File: images/AutomationResults.pdf Graphic file (type pdf)
- <use images/AutomationResults.pdf, page 1>
-Package pdftex.def Info: images/AutomationResults.pdf, page1 used on input line 12.
-(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
-File: images/AutomationResults.pdf Graphic file (type pdf)
-
-<use images/AutomationResults.pdf, page 1>
-Package pdftex.def Info: images/AutomationResults.pdf, page1 used on input line 12.
-(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
-File: images/AutomationResults.pdf Graphic file (type pdf)
- <use images/AutomationResults.pdf, page 1>
-Package pdftex.def Info: images/AutomationResults.pdf, page1 used on input line 12.
-(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
- [61]
-<images/AutomationResults.pdf, id=974, page=2, 597.53139pt x 845.0561pt>
-File: images/AutomationResults.pdf Graphic file (type pdf)
- <use images/AutomationResults.pdf, page 2>
-Package pdftex.def Info: images/AutomationResults.pdf, page2 used on input line 12.
-(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
-File: images/AutomationResults.pdf Graphic file (type pdf)
-
-<use images/AutomationResults.pdf, page 2>
-Package pdftex.def Info: images/AutomationResults.pdf, page2 used on input line 12.
-(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
-File: images/AutomationResults.pdf Graphic file (type pdf)
- <use images/AutomationResults.pdf, page 1>
-Package pdftex.def Info: images/AutomationResults.pdf, page1 used on input line 12.
-(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
- [62 <./images/AutomationResults.pdf>] <images/AutomationResults.pdf, id=993, page=3, 597.53139pt x 845.0561pt>
-File: images/AutomationResults.pdf Graphic file (type pdf)
- <use images/AutomationResults.pdf, page 3>
-Package pdftex.def Info: images/AutomationResults.pdf, page3 used on input line 12.
-(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
-File: images/AutomationResults.pdf Graphic file (type pdf)
-
-<use images/AutomationResults.pdf, page 3>
-Package pdftex.def Info: images/AutomationResults.pdf, page3 used on input line 12.
-(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
-File: images/AutomationResults.pdf Graphic file (type pdf)
- <use images/AutomationResults.pdf, page 2>
-Package pdftex.def Info: images/AutomationResults.pdf, page2 used on input line 12.
-(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
- [63 <./images/AutomationResults.pdf>]
-File: images/AutomationResults.pdf Graphic file (type pdf)
- <use images/AutomationResults.pdf, page 3>
-Package pdftex.def Info: images/AutomationResults.pdf, page3 used on input line 12.
-(pdftex.def)             Requested size: 537.77327pt x 760.54347pt.
- [64 <./images/AutomationResults.pdf>]) (annexes/ImplementedTestsList.tex
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 788.14134pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=540.60239pt
-* \textheight=788.14134pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-106.34378pt
-* \headheight=14.2pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=106.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-Annexe C.
-<images/ImplementedTestsList.pdf, id=1002, 597.55246pt x 845.07718pt>
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
- <use images/ImplementedTestsList.pdf>
-Package pdftex.def Info: images/ImplementedTestsList.pdf used on input line 12.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
-
-<use images/ImplementedTestsList.pdf>
-Package pdftex.def Info: images/ImplementedTestsList.pdf used on input line 12.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
- <images/ImplementedTestsList.pdf, id=1005, page=1, 597.55246pt x 845.07718pt>
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
-
-<use images/ImplementedTestsList.pdf, page 1>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page1 used on input line 12.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
- <use images/ImplementedTestsList.pdf, page 1>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page1 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
-
-<use images/ImplementedTestsList.pdf, page 1>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page1 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
- <use images/ImplementedTestsList.pdf, page 1>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page1 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
- [65
-
-
-
-]
-<images/ImplementedTestsList.pdf, id=1010, page=2, 597.55246pt x 845.07718pt>
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
-
-<use images/ImplementedTestsList.pdf, page 2>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page2 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
- <use images/ImplementedTestsList.pdf, page 2>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page2 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
-
-<use images/ImplementedTestsList.pdf, page 1>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page1 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
- [66 <./images/ImplementedTestsList.pdf>]
-<images/ImplementedTestsList.pdf, id=1033, page=3, 597.55246pt x 845.07718pt>
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
-
-<use images/ImplementedTestsList.pdf, page 3>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page3 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
- <use images/ImplementedTestsList.pdf, page 3>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page3 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
-
-<use images/ImplementedTestsList.pdf, page 2>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page2 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
- [67 <./images/ImplementedTestsList.pdf>]
-<images/ImplementedTestsList.pdf, id=1041, page=4, 597.55246pt x 845.07718pt>
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
-
-<use images/ImplementedTestsList.pdf, page 4>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page4 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
- <use images/ImplementedTestsList.pdf, page 4>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page4 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
-
-<use images/ImplementedTestsList.pdf, page 3>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page3 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
- [68 <./images/ImplementedTestsList.pdf>]
-File: images/ImplementedTestsList.pdf Graphic file (type pdf)
-
-<use images/ImplementedTestsList.pdf, page 4>
-Package pdftex.def Info: images/ImplementedTestsList.pdf, page4 used on input line 12.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
- [69 <./images/ImplementedTestsList.pdf>]) (annexes/JenkinsBasis.tex
-[70
-
-
-]
-Annexe D.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-) (annexes/Maven.tex [71] [72
-
-]
-Annexe E.
-) (annexes/crashedBuildBecauseOfMe.tex [73] [74
-
-]
-Annexe F.
-<images/crashedBuildBecauseOfMe.png, id=1077, 663.98062pt x 414.79968pt>
-File: images/crashedBuildBecauseOfMe.png Graphic file (type png)
- <use images/crashedBuildBecauseOfMe.png>
-Package pdftex.def Info: images/crashedBuildBecauseOfMe.png used on input line 6.
-(pdftex.def)             Requested size: 418.25368pt x 261.29353pt.
-)
-(annexes/DParameters.tex [75 <./images/crashedBuildBecauseOfMe.png>] [76
-
-]
-Annexe G.
-) (annexes/SAP-Corporate-Fact-Sheet.tex [77]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 788.14134pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=540.60239pt
-* \textheight=788.14134pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-106.34378pt
-* \headheight=14.2pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=106.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- [78
-
-
-]
-Annexe H.
-<images/SAP-Corporate-Fact-Sheet.pdf, id=1095, 597.55246pt x 845.19763pt>
-File: images/SAP-Corporate-Fact-Sheet.pdf Graphic file (type pdf)
- <use images/SAP-Corporate-Fact-Sheet.pdf>
-Package pdftex.def Info: images/SAP-Corporate-Fact-Sheet.pdf used on input line 7.
-(pdftex.def)             Requested size: 597.551pt x 845.19557pt.
-File: images/SAP-Corporate-Fact-Sheet.pdf Graphic file (type pdf)
-
-<use images/SAP-Corporate-Fact-Sheet.pdf>
-Package pdftex.def Info: images/SAP-Corporate-Fact-Sheet.pdf used on input line 7.
-(pdftex.def)             Requested size: 597.551pt x 845.19557pt.
-
-<images/SAP-Corporate-Fact-Sheet.pdf, id=1098, page=1, 597.55246pt x 845.19763pt>
-File: images/SAP-Corporate-Fact-Sheet.pdf Graphic file (type pdf)
-
-<use images/SAP-Corporate-Fact-Sheet.pdf, page 1>
-Package pdftex.def Info: images/SAP-Corporate-Fact-Sheet.pdf, page1 used on input line 7.
-(pdftex.def)             Requested size: 597.551pt x 845.19557pt.
-File: images/SAP-Corporate-Fact-Sheet.pdf Graphic file (type pdf)
- <use images/SAP-Corporate-Fact-Sheet.pdf, page 1>
-Package pdftex.def Info: images/SAP-Corporate-Fact-Sheet.pdf, page1 used on input line 7.
-(pdftex.def)             Requested size: 537.79224pt x 760.67085pt.
-File: images/SAP-Corporate-Fact-Sheet.pdf Graphic file (type pdf)
-
-<use images/SAP-Corporate-Fact-Sheet.pdf, page 1>
-Package pdftex.def Info: images/SAP-Corporate-Fact-Sheet.pdf, page1 used on input line 7.
-(pdftex.def)             Requested size: 537.79224pt x 760.67085pt.
-File: images/SAP-Corporate-Fact-Sheet.pdf Graphic file (type pdf)
- <use images/SAP-Corporate-Fact-Sheet.pdf, page 1>
-Package pdftex.def Info: images/SAP-Corporate-Fact-Sheet.pdf, page1 used on input line 7.
-(pdftex.def)             Requested size: 537.79224pt x 760.67085pt.
- [79]
-File: images/SAP-Corporate-Fact-Sheet.pdf Graphic file (type pdf)
-
-<use images/SAP-Corporate-Fact-Sheet.pdf, page 1>
-Package pdftex.def Info: images/SAP-Corporate-Fact-Sheet.pdf, page1 used on input line 7.
-(pdftex.def)             Requested size: 537.79224pt x 760.67085pt.
- [80 <./images/SAP-Corporate-Fact-Sheet.pdf>]) (MyReport.ind [81
-
-
-
-
-])
-(MyReport.gls [82
-
-])
-
-LaTeX Warning: Citation '*' on page 83 undefined on input line 59.
-
-[83
-
-
-] [84
-
-] [85] [86
-
-] (MyReport.lof [87])
-\tf@lof=\write9
- [88] (MyReport.toc [89
-
-] [90])
-\tf@toc=\write10
- [91]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write9
+ [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (MyReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
-
-
-Package rerunfilecheck Warning: File `MyReport.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `MyReport.out':
-(rerunfilecheck)             Before: 089B4DD27AEEF0A1E6404B6D2F09C64A;4180
-(rerunfilecheck)             After:  B5E34E19B0C1025C92DD5314CBD15163;4180.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                MyReport
-(biblatex)                and rerun LaTeX afterwards.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
+Package rerunfilecheck Info: File `MyReport.out' has not changed.
+(rerunfilecheck)             Checksum: 44865B2129436983C3FE4DA58D332BB2;305.
 Package logreq Info: Writing requests to 'MyReport.run.xml'.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 32080 strings out of 493673
- 556152 string characters out of 3143954
- 1172066 words of memory out of 3000000
- 34261 multiletter control sequences out of 15000+200000
- 29106 words of font info for 71 fonts, out of 3000000 for 9000
+ 30827 strings out of 493673
+ 536571 string characters out of 3143954
+ 1025766 words of memory out of 3000000
+ 33536 multiletter control sequences out of 15000+200000
+ 18490 words of font info for 45 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 57i,19n,70p,2010b,3399s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\I310911\AppData\
-Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ectt1000.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm06
-00.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1095.pk> <C:\Users\I310911\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk
-\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
-rm1000.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0900.pk> <C:\Users\I310911\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecrm0800.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\I310911\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
-i600\ecrm2488.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\I
-310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
-c\dpi600\ecbx2488.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on MyReport.pdf (97 pages, 5152373 bytes).
+ 57i,11n,67p,2010b,1663s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1095.pk> <C:\Users\I310911\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecbx1440.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\I310911\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\I310911\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecr
+m2488.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmr8a.pfb>
+Output written on MyReport.pdf (9 pages, 85266 bytes).
 PDF statistics:
- 2201 PDF objects out of 2487 (max. 8388607)
- 401 named destinations out of 1000 (max. 500000)
- 805 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
