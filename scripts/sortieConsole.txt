@@ -1,5 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Avant la méthode run %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Avant la methode run 
 
 
 Check parameters first in: C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Workspace_Aurora\rebean\parameters.xml
@@ -83,7 +82,7 @@ Log file.C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Works
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pendant la méthode run %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pendant la methode run 
 
 
 [<]           -updateStructureAurora [START]
@@ -120,7 +119,7 @@ Log file.C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Works
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pendant la méthode StopTestcaseStepWithAction()  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% Pendant la methode StopTestcaseStepWithAction()  
 
 
 [<]               -applyFormat [START]
@@ -187,7 +186,7 @@ Log file.C:\p4\service.td.webi_LVLD60232305A\depot\SoftwareTesting\WebISDK\Works
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Après la méthode run  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Apres la methode run 
 
 
 
