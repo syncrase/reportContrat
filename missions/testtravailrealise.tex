@@ -109,14 +109,14 @@ Pour en revenir \`{a} l'impl\'{e}mentation de mon test de base, devant d\'{e}pla
 
 J'ai comprise que je ne pouvais pas faire ce que je voulais directement, il me fallait pr\'{e}parer le terrain et r\'{e}cup\'{e}rer tous les objets qui entraient en jeu dans le d\'{e}placement de la cellule.\\
 
-Il fallait d'abord r\'{e}cup\'{e}rer, \'{e}videmment, le corps de mon document, cela se fait simplement gr\^{a}ce \`{a} l'une des \gls{M\'{e}thode}s propres au rapport :
+Il fallait d'abord r\'{e}cup\'{e}rer, \'{e}videmment, le corps de mon document, cela se fait simplement gr\^{a}ce \`{a} l'une des M\'{e}thodes propres au rapport :
 \begin{lstlisting}
 reportAurora.getPageZone(PageZoneType.BODY);
 \end{lstlisting}
 L'\'{e}tape suivante \'{e}tait de r\'{e}cup\'{e}rer le tableau contenu dans le corps du document, le probl\`{e}me \'{e}tant que pour se faire il faut appeler l'objet par son nom. Comment savoir comment ce tableau a \'{e}t\'{e} appel\'{e}? Car je pouvais acc\'{e}der \`{a} mon document depuis Web Intelligence mais, depuis l'interface, je n'avais aucun moyen de savoir ce qui se passait derri\`{e}re, c\^{o}t\'{e} logiciel.\\
 La m\'{e}thode que j'ai utilis\'{e} \`{a} ce moment l\`{a} et que j'ai toujours continu\'{e} \`{a} utiliser \'{e}tait de parcourir l'ensemble des \'{e}l\'{e}ments contenu dans le corps du rapport et d'en afficher les propri\'{e}t\'{e}s. Cela me permettais, non seulement, d'obtenir son nom, son identifiant et tout ses param\`{e}tres, mais aussi, d'obtenir son type. Au fur est \`{a} mesure du temps et que j'impl\'{e}mentais des tests j'ai d\'{e}couvert beaucoup de types diff\'{e}rents, leurs imbriquations, utilit\'{e}s et correspondances avec les \'{e}l\'{e}ments graphiques du document Web Intelligence.\\
 Gr\^{a}ce \`{a} cette m\'{e}thode, j'ai pu d\'{e}terminer le nom de ce que je cherchais.\\
-Ensuite, de cette table il me fallait r\'{e}cup\'{e}rer les colonnes, pour pouvoir les manipuler. Dans les diff\'{e}rents tests que j'avais pu \'{e}tudier auparavant, j'avais remarqu\'{e} l'utilisation d'une \gls{M\'{e}thode} g\'{e}n\'{e}rique permettant de r\'{e}cup\'{e}rer une cellule d'un tableau. J'ai utilis\'{e} cette \gls{M\'{e}thode} de la m\^{e}me mani\`{e}re que celle utilis\'{e}e dans les tests existants. \\
+Ensuite, de cette table il me fallait r\'{e}cup\'{e}rer les colonnes, pour pouvoir les manipuler. Dans les diff\'{e}rents tests que j'avais pu \'{e}tudier auparavant, j'avais remarqu\'{e} l'utilisation d'une M\'{e}thode g\'{e}n\'{e}rique permettant de r\'{e}cup\'{e}rer une cellule d'un tableau. J'ai utilis\'{e} cette M\'{e}thode de la m\^{e}me mani\`{e}re que celle utilis\'{e}e dans les tests existants. \\
 Alors j'ai pu impl\'{e}menter le code suivant qui me permettait de d\'{e}placer une colonne :
 
 
@@ -136,13 +136,13 @@ dropHelp.dropCells(cells, cell3, CellZone.RIGHT);
 docCalc.applyFormat();
 \end{lstlisting}
 
-L'utilisation de la \gls{M\'{e}thode} \textquote{dropCells()} n'est pas instinctive, au premier abord, et j'ai fais plusieurs essais avant de comprendre son fonctionnement. Cette \gls{M\'{e}thode} prends trois param\`{e}tres : un tableau de cellules, une cellule et une position. Le changement appliqu\'{e} par cette \gls{M\'{e}thode} est que le contenu du tableau de cellule est d\'{e}plac\'{e} comme d\'{e}sir\'{e}, ici, \`{a} droite de la cellule sp\'{e}cifi\'{e}e.\\
+L'utilisation de la \gls{Methode} \textquote{dropCells()} n'est pas instinctive, au premier abord, et j'ai fais plusieurs essais avant de comprendre son fonctionnement. Cette M\'{e}thode prends trois param\`{e}tres : un tableau de cellules, une cellule et une position. Le changement appliqu\'{e} par cette M\'{e}thode est que le contenu du tableau de cellule est d\'{e}plac\'{e} comme d\'{e}sir\'{e}, ici, \`{a} droite de la cellule sp\'{e}cifi\'{e}e.\\
 La modification appliqu\'{e}e par ce code est illustr\'{e}e figure \ref{figure:dropcells}.\\
 
 \begin{figure}[!h]
   \centering
       \includegraphics{images/dropcells.png}
-  \caption{Allure du tableau avant et après l'ex\'{e}cution du code}
+  \caption{Allure du tableau avant et apr\`{e}s l'ex\'{e}cution du code}
 	\label{figure:dropcells}
 \end{figure}
 
