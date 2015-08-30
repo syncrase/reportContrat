@@ -7,29 +7,26 @@
 \frontmatter% début des pages liminaires
 \pagestyle{front}%style des entêtes pour cette partie
 %\input{page-de-couverture/page-de-couverture}%on créé la couverture
-\thispagestyle{empty}%pour la page de garde toute blanche
-%\input{page-de-couverture/page-de-titre}%no comment!
-%\input{resume/resume}%no comment!
-
+%\thispagestyle{empty}%pour la page de garde toute blanche
+%
 %\input{remerciements/remerciements}%no comment!
-
-
-\shorttableofcontents{Sommaire}{0}%sommaire avec uniquement les chapitres
-%\addcontentsline{toc}{chapter}{Sommaire}%ajout du sommaire dans le sommaire!
+%
+%
+%\shorttableofcontents{Sommaire}{0}%sommaire avec uniquement les chapitres
 
 
 \mainmatter% corps du document
 \pagestyle{main}%style des entêtes pour cette partie
 %\input{introduction/introduction}
-
-
+%
+%
 %\input{Presentation-de-l-entreprise/Presentation-de-l-entreprise}
 %\input{Presentation-de-l-entreprise/Presentation-de-l-equipe}
-
-\input{missions/Software-tester}
+%
+%\input{missions/Software-tester}
 %\input{missions/Migration}
-%\input{missions/JenkinsPlugin}
-
+\input{missions/JenkinsPlugin}
+%
 %\input{conclusion/bilan}
 %\input{conclusion/conclusion}
 \cleardoublepage% le corps du document est terminé
@@ -38,24 +35,50 @@
 \pagestyle{back}
 
 
-\input{annexes/annexeTestLevels}
-\input{annexes/AutomationResults}
-\input{annexes/ImplementedTestsList}
-\input{annexes/JenkinsBasis}
-\input{annexes/Maven}
-\input{annexes/crashedBuildBecauseOfMe}
-\input{annexes/DParameters}
-\input{annexes/SAP-Corporate-Fact-Sheet}
-\input{annexes/sortieConsole}
+
+
+%\input{annexes/AutomationResults}
+%\input{annexes/ImplementedTestsList}
+%\input{annexes/crashedBuildBecauseOfMe}
+%\input{annexes/SAP-Corporate-Fact-Sheet}
+%\input{annexes/sortieConsole}
+%\input{annexes/httpcwbapi}
 
 \backmatter
 %\printindex
 %\addcontentsline{toc}{chapter}{Index}
+%
+%
+%\printglossaries
+%\addcontentsline{toc}{chapter}{Glossaire}
+%
+%\listoffigures
+%\addcontentsline{toc}{chapter}{Table des figures}
+
+
+
+\tableofcontents%table des matières plus complète   <<<<<<<<<  Important pour le sommaire plus haut!
+%\addcontentsline{toc}{chapter}{Table des matières}%ajout de la table des matières dans la table des matières !
+
+
+\input{page-de-couverture/quatrieme-de-couv}
+\end{document}
+
+
+
+
+
+%\input{page-de-couverture/page-de-titre}%no comment!
+%\input{resume/resume}%no comment!
+%\addcontentsline{toc}{chapter}{Sommaire}%ajout du sommaire dans le sommaire!
+
+%\input{annexes/annexeTestLevels}
+%\input{annexes/DParameters}
+%\input{annexes/JenkinsBasis}
+%\input{annexes/Maven}
+
 
 %\glsaddall
-\printglossaries
-\addcontentsline{toc}{chapter}{Glossaire}
-
 %\printnomenclature
 %\addcontentsline{toc}{chapter}{Liste des abréviations, des sigles et des symboles}
 
@@ -65,15 +88,5 @@
 %\printbibliography
 %\addcontentsline{toc}{chapter}{Bibliographie}
 
-%\listoffigures
-%\addcontentsline{toc}{chapter}{Table des figures}
-
 %\listoftables
 %\addcontentsline{toc}{chapter}{Liste des tableaux}
-
-\tableofcontents%table des matières plus complète   <<<<<<<<<  Important pour le sommaire plus haut!
-\addcontentsline{toc}{chapter}{Table des matières}%ajout de la table des matières dans la table des matières !
-
-
-%\input{page-de-couverture/quatrieme-de-couv}
-\end{document}

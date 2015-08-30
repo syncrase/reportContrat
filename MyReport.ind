@@ -1,43 +1,15 @@
 \begin{theindex}
 
-  \item \gls{Java} Correction WorkBench, \hyperpage{16}
+  \item Defect, \hyperpage{2, 3}
 
   \indexspace
 
-  \item Business Intelligence, \hyperpage{3}
+  \item Java Correction WorkBench, \hyperpage{1}, \hyperpage{3--5}
+  \item Jenkins, \hyperpage{1}
+  \item Jira, \hyperpage{1}, \hyperpage{3}, \hyperpage{5}
 
   \indexspace
 
-  \item CMS, \hyperpage{21}
-  \item Correction Measure, \hyperpage{16}
-
-  \indexspace
-
-  \item Framework, \hyperpage{5}
-
-  \indexspace
-
-  \item Jira, \hyperpage{16}
-
-  \indexspace
-
-  \item Perforce, \hyperpage{2}
-
-  \indexspace
-
-  \item queryspec, \hyperpage{19}
-
-  \indexspace
-
-  \item Source Code Management, \hyperpage{4}
-
-  \indexspace
-
-  \item Testcase, \hyperpage{11}
-  \item Testsuite, \hyperpage{11}
-
-  \indexspace
-
-  \item wid, \hyperpage{21}
+  \item Perforce, \hyperpage{1}
 
 \end{theindex}
