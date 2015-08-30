@@ -1,4 +1,4 @@
-package rebean_wi.customers.Aerospatiale_Matra_Airbus.ID_187739;
+package rebean_wi.customers.{customerName}.{customerID};
 
 import model.filters.Mode;
 import model.filters.Severity;
