@@ -1,15 +1,52 @@
 \begin{theindex}
 
-  \item Defect, \hyperpage{2, 3}
+  \item \gls{Java} Correction WorkBench, \hyperpage{30}
 
   \indexspace
 
-  \item Java Correction WorkBench, \hyperpage{1}, \hyperpage{3--5}
-  \item Jenkins, \hyperpage{1}
-  \item Jira, \hyperpage{1}, \hyperpage{3}, \hyperpage{5}
+  \item Business Intelligence, \hyperpage{17}
 
   \indexspace
 
-  \item Perforce, \hyperpage{1}
+  \item CMS, \hyperpage{35}
+  \item Correction Measure, \hyperpage{30}
+
+  \indexspace
+
+  \item Defect, \hyperpage{40, 41}
+
+  \indexspace
+
+  \item Framework, \hyperpage{19}
+
+  \indexspace
+
+  \item Java Correction WorkBench, \hyperpage{39}, \hyperpage{41--43}
+  \item Jenkins, \hyperpage{39}
+  \item Jira, \hyperpage{30}, \hyperpage{39}, \hyperpage{41}, 
+		\hyperpage{43}
+
+  \indexspace
+
+  \item Perforce, \hyperpage{16}, \hyperpage{39}
+
+  \indexspace
+
+  \item queryspec, \hyperpage{32}
+
+  \indexspace
+
+  \item Software Tester, \hyperpage{10}
+  \item Source Code Management, \hyperpage{18}
+
+  \indexspace
+
+  \item Test coverage, \hyperpage{14}
+  \item Testcase, \hyperpage{26}
+  \item Testsuite, \hyperpage{26}
+
+  \indexspace
+
+  \item wid, \hyperpage{35}
 
 \end{theindex}

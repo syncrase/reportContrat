@@ -14,9 +14,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Document sur lequel j'ai bas\'{e} mes premi\`{e}re exp\'{e}rimentations}}{20}{figure.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Allure du tableau avant et apr\`{e}s l'ex\'{e}cution du code}}{26}{figure.3.3}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Allure du tableau avant et apr\`{e}s l'ex\'{e}cution du code}}{25}{figure.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Contenu du script.xml pour g\'{e}n\'{e}rer une r\'{e}f\'{e}rence}}{28}{figure.3.4}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Contenu du script.xml pour g\'{e}n\'{e}rer une r\'{e}f\'{e}rence}}{27}{figure.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.5}{\ignorespaces \'{E}cran de JCWB propre \`{a} une CM}}{30}{figure.3.5}
 \defcounter {refsection}{0}\relax 
@@ -34,7 +34,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Plugin Radiator utilis\IeC {\'e} actuellement}}{40}{figure.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Contexte du'utilisation du plugin Radiator utilis\IeC {\'e} actuellement}}{41}{figure.4.2}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Contexte d'utilisation du plugin Radiator utilis\IeC {\'e} actuellement}}{41}{figure.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Annotation utilis\IeC {\'e}e pour v\IeC {\'e}rifier le statut du defect Jira}}{41}{figure.4.3}
 \defcounter {refsection}{0}\relax 
@@ -44,23 +44,17 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces L'environnement d'utilisation du plugin}}{48}{figure.5.1}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces L'environnement d'utilisation du plugin}}{50}{figure.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Architecture d'un plugin Jenkins g\IeC {\'e}n\IeC {\'e}r\IeC {\'e} par maven}}{52}{figure.5.2}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Architecture d'un plugin Jenkins g\IeC {\'e}n\IeC {\'e}r\IeC {\'e} par maven}}{55}{figure.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Jenkins \IeC {\`a} l'ex\IeC {\'e}cution de la commande maven qui l'encapsule}}{54}{figure.5.3}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Jenkins \IeC {\`a} l'ex\IeC {\'e}cution de la commande maven qui l'encapsule}}{57}{figure.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Extrait de la javadoc de la classe ListView}}{55}{figure.5.4}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Chemin d'acc\IeC {\`e}s au fichier de configuration par d\IeC {\'e}faut}}{58}{figure.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Chemin d'acc\IeC {\`e}s au fichier de configuration par d\IeC {\'e}faut}}{56}{figure.5.5}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Diagramme de classe du plugin r\IeC {\'e}alis\IeC {\'e}}}{61}{figure.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Initialisation des css avant chargement}}{56}{figure.5.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Initialisation des css apr\IeC {\`e}s chargement}}{56}{figure.5.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Algorithme de cr\IeC {\'e}ation du Dashboard}}{58}{figure.5.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Diagramme de classe du plugin r\IeC {\'e}alis\IeC {\'e}}}{59}{figure.5.9}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Algorithme de cr\IeC {\'e}ation du Dashboard}}{62}{figure.5.6}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -68,14 +62,10 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Capture d'\'{e}cran du r\'{e}sultat de ma mauvaise manipulation}}{75}{figure.C.1}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Capture d'\'{e}cran du r\'{e}sultat de ma mauvaise manipulation}}{83}{figure.C.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {french}

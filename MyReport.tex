@@ -4,32 +4,32 @@
 
 \begin{document}
 \frenchspacing
-\frontmatter% début des pages liminaires
-\pagestyle{front}%style des entêtes pour cette partie
-%\input{page-de-couverture/page-de-couverture}%on créé la couverture
-%\thispagestyle{empty}%pour la page de garde toute blanche
-%
-%\input{remerciements/remerciements}%no comment!
-%
-%
-%\shorttableofcontents{Sommaire}{0}%sommaire avec uniquement les chapitres
+\frontmatter
+\pagestyle{front}
+\input{page-de-couverture/page-de-couverture}
+\thispagestyle{empty}
+
+\input{remerciements/remerciements}
+
+\newgeometry{top=1cm}
+\shorttableofcontents{Sommaire}{0}
+\restoregeometry
+
+\mainmatter
+\pagestyle{main}
+\input{introduction/introduction}
 
 
-\mainmatter% corps du document
-\pagestyle{main}%style des entêtes pour cette partie
-%\input{introduction/introduction}
-%
-%
-%\input{Presentation-de-l-entreprise/Presentation-de-l-entreprise}
-%\input{Presentation-de-l-entreprise/Presentation-de-l-equipe}
-%
-%\input{missions/Software-tester}
-%\input{missions/Migration}
+\input{Presentation-de-l-entreprise/Presentation-de-l-entreprise}
+\input{Presentation-de-l-entreprise/Presentation-de-l-equipe}
+
+\input{missions/Software-tester}
+\input{missions/Migration}
 \input{missions/JenkinsPlugin}
-%
-%\input{conclusion/bilan}
-%\input{conclusion/conclusion}
-\cleardoublepage% le corps du document est terminé
+
+\input{conclusion/bilan}
+\input{conclusion/conclusion}
+\cleardoublepage
 
 \appendix
 \pagestyle{back}
@@ -37,28 +37,28 @@
 
 
 
-%\input{annexes/AutomationResults}
-%\input{annexes/ImplementedTestsList}
-%\input{annexes/crashedBuildBecauseOfMe}
-%\input{annexes/SAP-Corporate-Fact-Sheet}
-%\input{annexes/sortieConsole}
-%\input{annexes/httpcwbapi}
+\input{annexes/AutomationResults}
+\input{annexes/ImplementedTestsList}
+\input{annexes/crashedBuildBecauseOfMe}
+\input{annexes/SAP-Corporate-Fact-Sheet}
+\input{annexes/sortieConsole}
+\input{annexes/httpcwbapi}
 
 \backmatter
-%\printindex
-%\addcontentsline{toc}{chapter}{Index}
-%
-%
-%\printglossaries
-%\addcontentsline{toc}{chapter}{Glossaire}
-%
-%\listoffigures
-%\addcontentsline{toc}{chapter}{Table des figures}
+\printindex
+\addcontentsline{toc}{chapter}{Index}
+
+
+\printglossaries
+\addcontentsline{toc}{chapter}{Glossaire}
+
+\listoffigures
+\addcontentsline{toc}{chapter}{Table des figures}
 
 
 
 \tableofcontents%table des matières plus complète   <<<<<<<<<  Important pour le sommaire plus haut!
-%\addcontentsline{toc}{chapter}{Table des matières}%ajout de la table des matières dans la table des matières !
+\addcontentsline{toc}{chapter}{Table des matières}
 
 
 \input{page-de-couverture/quatrieme-de-couv}

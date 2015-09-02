@@ -2,22 +2,170 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Migration Jira/Java Correction WorkBench}{1}{chapter.1}
+\contentsline {chapter}{Remerciements}{ii}{Doc-Start}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Qu'est-ce que Jira et Java Correction WorkBench (JCWB)}{1}{section.1.1}
+\contentsline {chapter}{Introduction}{1}{chapter*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Pr\'{e}sentation du contexte}{1}{section.1.2}
+\contentsline {chapter}{\numberline {1}Pr\'{e}sentation de l'entreprise}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Plugin de reporting}{2}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.1}SAP dans le monde}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Travail effectu\'{e}}{5}{section.1.3}
+\contentsline {subsection}{\numberline {1.1.1}Les produits SAP}{5}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Fonctionnement et utilisation de prod-pass-access}{5}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.1.2}SAP en France}{7}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Conclusion de la mission}{9}{section.1.4}
+\contentsline {section}{\numberline {1.2}Contexte ant\IeC {\'e}rieur \IeC {\`a} mon arriv\IeC {\'e}e \IeC {\`a} SAP}{7}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Bilan de cette mission}{9}{section.1.5}
+\contentsline {subsection}{\numberline {1.2.1}Les 8 initiatives qualit\IeC {\'e}}{8}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\select@language {english}
+\contentsline {subsubsection}{Performance}{8}{section*.3}
 \defcounter {refsection}{0}\relax 
-\select@language {french}
+\contentsline {subsubsection}{Int\IeC {\'e}gration continue}{8}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Automatisation}{9}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Optimisation de l'ex\IeC {\'e}cution des tests}{9}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{1 bug = 1 test}{9}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Augmenter la couverture de test}{10}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{ADEPT}{10}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Outil de validation des rapports}{11}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Pr\'{e}sentation de mon environnement \`{a} SAP}{13}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Pr\IeC {\'e}sentation de l'\IeC {\'e}quipe}{13}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Sa mission}{14}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Software tester}{15}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}G\'{e}n\'{e}ralit\'{e}s sur le test automatique}{15}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Description des diff\'{e}rents types de test}{15}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Le test unitaire}{15}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Le test fonctionnel}{15}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Le test d'int\'{e}gration}{16}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Le test de performance}{16}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Le test de stabilit\'{e}}{16}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Le test de scalabilit\'{e}}{16}{section*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Le test de validation de plateforme}{16}{section*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Le test dans l'\'{e}quipe d'automatisation des tests}{16}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Pr\'{e}sentation du produit test\'{e} : Web Intelligence}{17}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}La premi\`{e}re semaine dans l'\'{e}quipe d'automatisation des tests}{17}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Les recherches relatives aux tests automatiques dans le cadre du \gls {Framework} utilis\'{e}}{19}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.1}Recherche effectu\'{e}es pour conna\^{i}tre les diff\'{e}rentes actions de l'ex\'{e}cution d'un test}{22}{subsection.3.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.2}Modification d'un document Web Intelligence gr\^{a}ce au \gls {Framework}}{23}{subsection.3.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Synth\`{e}se des connaissances}{26}{section.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.1}Tests statiques ou dynamiques}{26}{subsection.3.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Tests statiques}{26}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Tests dynamiques}{28}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.2}De l'\'{e}tude \`{a} l'int\'{e}gration}{29}{subsection.3.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Impl\'{e}mentation de la coquille vide}{31}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Les ressources}{35}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Bilan de la 1\up {\`{e}re} p\'{e}riode}{37}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.1}Connaissance du framework}{37}{subsection.3.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.2}M\'{e}thodologie}{37}{subsection.3.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.3}Travail en \'{e}quipe}{38}{subsection.3.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Migration Jira/Java Correction WorkBench}{39}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Qu'est-ce que Jira et Java Correction WorkBench (JCWB)}{39}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Pr\'{e}sentation du contexte}{39}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Plugin de reporting}{40}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Travail effectu\'{e}}{43}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Fonctionnement et utilisation de prod-pass-access}{43}{subsection.4.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Acc\IeC {\`e}s au web service}{45}{subsection.4.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}Cr\IeC {\'e}ation du nouvel utilisateur}{46}{subsection.4.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Conclusion de la mission}{47}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Bilan de cette mission}{47}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Plugin Jenkins}{49}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Contexte initial}{49}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Organisation du travail}{52}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}\'{E}tude pr\IeC {\'e}alable}{52}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Le 1\up {er} plugin}{53}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Configuration}{53}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}G\IeC {\'e}n\IeC {\'e}ration du squelette}{54}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}D\IeC {\'e}ploiement du squelette du plugin}{55}{subsection.5.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Impl\IeC {\'e}mentation de la base du nouveau plugin}{56}{section.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.1}Import du code dans l'IDE}{57}{subsection.5.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.2}Impl\IeC {\'e}mentation de la base du plugin}{58}{subsection.5.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.6}Travail r\IeC {\'e}alis\IeC {\'e}}{58}{section.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.1}Construction d'une architecture en corr\IeC {\'e}lation avec l'affichage souhait\IeC {\'e}}{59}{subsection.5.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.2}Affichage des jobs dans l'interface graphique}{63}{subsection.5.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.3}Personnalisation des statuts}{65}{subsection.5.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.7}Les \IeC {\'e}chos de mon projet}{66}{section.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bilan}{69}{chapter*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusion}{71}{chapter*.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}R\'{e}sultats quotidiens des tests}{73}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Tous les tests impl\'{e}ment\'{e}s}{77}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Mail re\c {c}u d'un mauvais push}{83}{appendix.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Fiche d'information de SAP}{85}{appendix.D}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {E}Exemple d'une sortie console}{87}{appendix.E}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {F}Code Java permettant de se connecter \`{a} l'API CWB}{95}{appendix.F}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Index}{106}{lstnumber.-25.359}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Glossaire}{108}{appendix*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Table des figures}{109}{appendix*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Table des mati\IeC {\`e}res}{113}{appendix*.27}

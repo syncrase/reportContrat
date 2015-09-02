@@ -14,13 +14,13 @@ La stratégie de gestion des bugs changeant, SAP a pris la décision d'utiliser 
 
 
 \`{A} SAP, tous les codes des différents projets sont hébergés sur le gestionnaire de version Perforce\index{Perforce} (SCM : Source Code Management)
-et ceux-ci sont compilés plusieurs fois par jour grâce à Jenkins\index{Jenkins} ou ASTEC (CIS : Continuous Integration Software).\\
-Chaque projet est constitué de deux choses distinctes, d'une part, son code source et, d'autre part, les tests joués pour garantir\footnote{La valeur de la garantie dépend directement du test coverage} le bon fonctionnement du produit. Lorsqu'il y a un problème sur la build, que ce soit une erreur de compilation ou un test qui échoue, le statut de la build change pour être représentatif du problème. Dès lors que quelqu'un s'en aperçoit, il inscrit un defect\index{Defect} dans Jira\footnote{L'utilité de Jira est bien plus large que la simple déclaration d'un test échoué, il sert à décrire n'importe quel problème quelle que soit la version, la branche ou le produit} ou dans JCWB.\\
+et ceux-ci sont compilés plusieurs fois par jour grâce à Jenkins\index{Jenkins} (CIS : Continuous Integration Software).\\
+Chaque projet est constitué de deux choses distinctes, d'une part, son code source et, d'autre part, les tests joués pour garantir\footnote{La valeur de la garantie dépend directement du test coverage} le bon fonctionnement du produit. Lorsqu'il y a un problème sur la build, que ce soit une erreur de compilation ou un test qui échoue, le statut de la build change pour être représentatif du problème. Dès lors que quelqu'un s'en aperçoit, il inscrit un defect\index{Defect} dans Jira\footnote{L'utilité de Jira est bien plus large que la simple déclaration d'un test échoué, il sert à décrire n'importe quel problème quelle que soit la version, la branche ou le produit} ou dans JCWB, en fonction de la nature du problème\\
 
 
-\subsection{Plugin de reporting}
-Pour leur permettre d'avoir un rapport visuel sur l'état des builds, ils utilisent le plugin Radiator. Ce plugin permet l'affichage, sur un seul écran divisé, des groupes de jobs\footnote{Typiquement, un job correspond à un projet logiciel}. Un groupe de jobs est un carré coloré dont la couleur représente l'état des jobs qui le compose, voir la capture d'écran figure \ref{figure:radiatorActual} page \pageref{figure:radiatorActual}.\\
-Les statuts pris en compte sont les statuts Jenkins\footnote{Error, Failure, Unstable, Aborted, Not built, Success} ainsi qu'un statut supplémentaire issue du plugin Claim. Ce plugin permet à un développeur de \textquote{claimer} une erreur, c'est-à-dire, ajouter au projet une information supplémentaire : le nom de l'utilisateur qui a \textquote{claimer} et le message que celui-ci a laisser aux visiteurs suivants.
+\section{Plugin de reporting}
+Pour leur permettre d'avoir un rapport visuel sur l'état des builds, ils utilisent le plugin Radiator. Ce plugin permet l'affichage, sur un seul écran divisé, des groupes de jobs\footnote{Typiquement, un job correspond à un projet logiciel}. Un groupe de jobs est représenté par un carré coloré dont la couleur représente l'état des jobs qui le composent, voir la capture d'écran figure \ref{figure:radiatorActual} page \pageref{figure:radiatorActual}.\\
+Les statuts pris en compte sont les statuts Jenkins\footnote{Error, Failure, Unstable, Aborted, Not built, Success} ainsi qu'un statut supplémentaire issu du plugin Claim. Ce plugin permet à un développeur de \textquote{claimer} une erreur, c'est-à-dire, ajouter au projet une information supplémentaire : le nom de l'utilisateur qui a \textquote{claimé} et le message que celui-ci a laissé aux autres utilisateurs.
 
 
 
@@ -32,15 +32,14 @@ Les statuts pris en compte sont les statuts Jenkins\footnote{Error, Failure, Uns
 	\label{figure:radiatorActual}
 \end{figure}
 
-En résumé Radiator :
+En résumé Radiator permet de :
 \begin{itemize}
-	\item permet de rassembler les jobs en un seul groupe de jobs
-	\item où chacun des jobs a un statut\footnote{statut propre à Jenkins}
-	\item que le groupe de projet arbore la couleur représentative du statut jugé le plus important
-	\item permet de prendre en compte les informations supplémentaires du plugin claim
+	\item rassembler les jobs en un seul groupe de jobs, où chacun des jobs a un statut\footnote{statut propre à Jenkins}
+	\item afficher une couleur représentative du statut jugé le plus important
+	\item prendre en compte les informations supplémentaires du plugin claim
 \end{itemize}
-Par exemple, si nous avons deux groupes composés chacun de trois jobs, tous différents. Supposons que, sur les 6 jobs, l'un soit en échec les autres étant en succès. Nous aurons donc une vue colorée en verte (parce que tous les projets sont en succès) et la deuxième vue apparaissant en rouge (l'un des jobs ayant échoués) ou bien en orange si l'échec est investigué (échec claim par un développeur).\\
-La figure \ref{figure:RadiatorInformationSources} page \pageref{figure:RadiatorInformationSources} illustre bien les sources d'informations du plugin. Il puise ses résultats depuis Jenkins et le plugin claim, les résultats de Jenkins puisant ses résultats en partie des résultats de tests JUnit.\\
+Prennons l'exemple où nous avons deux groupes composés chacun de trois jobs, tous différents. Supposons que, sur les 6 jobs, l'un soit en échec les autres en succès. Nous aurons donc une vue colorée en vert (parce que tous les projets sont en succès) et la deuxième vue colorée en rouge (l'un des jobs ayant échoué) ou bien en orange si l'échec est \textquote{claimé} (échec claim par un développeur).\\
+La figure \ref{figure:RadiatorInformationSources} page \pageref{figure:RadiatorInformationSources} illustre bien les sources d'informations du plugin. Il puise ses résultats depuis Jenkins et le plugin claim, les résultats de Jenkins provenant, d'une part, des résultats de tests JUnit, et d'autre part, des compilations, synchronisations vers Perforce, \ldots\\
 L'inconvénient de ce procédé est que lorsque qu'un test a échoué, tout le groupe de test passe en rouge. Dans cette situation, il devient impossible de détecter les nouveaux tests qui échouent.
 
 
@@ -49,14 +48,14 @@ L'inconvénient de ce procédé est que lorsque qu'un test a échoué, tout le g
 \begin{figure}[!h]
   \centering
       \includegraphics[scale=0.5]{images/RadiatorInformationSources.jpg}
-  \caption{Contexte du'utilisation du plugin Radiator utilisé actuellement}
+  \caption{Contexte d'utilisation du plugin Radiator utilisé actuellement}
 	\label{figure:RadiatorInformationSources}
 \end{figure}
 
 
 
 
-La solution simple et provisoire, mais permettant de contourner le problème et de ne plus polluer l'affichage avec du rouge, consiste à faire passer les jobs en échec avec defect\index{Defect} (ie. reconnus et enregistrés comme échecs dans Jira\index{Jira} ou CWB\index{Java Correction WorkBench}) en vert.\\
+La solution simple, mais permettant de contourner le problème et de ne plus polluer l'affichage avec du rouge, consiste à faire passer les jobs en échec avec defect\index{Defect} (ie. reconnus et enregistrés comme échecs dans Jira\index{Jira} ou CWB\index{Java Correction WorkBench}) en vert.\\
 De cette manière, puisque seuls les nouveaux échecs apparaissent en rouge, toute régression est visible immédiatement.\\
 Cette transformation est mise en \oe{}uvre grâce à une annotation, celle-ci est présentée figure \ref{figure:annotationJava} page \pageref{figure:annotationJava}.\\
 
@@ -68,13 +67,13 @@ Cette transformation est mise en \oe{}uvre grâce à une annotation, celle-ci es
 	\label{figure:annotationJava}
 \end{figure}
 
-De cette manière le test est relié au defect et si :
+De cette manière le test est relié au defect. \textbf{Et si} :
 \begin{enumerate}
-	\item le test est échoué mais le statut est \textquote{Active} ou \textquote{Open}
+	\item le test a échoué mais le statut est \textquote{Active} ou \textquote{Open}
 	\item le message d'erreur est de la forme attendue
 \end{enumerate}
-\textbf{Alors}, le test sera considéré en succès par Jenkins. Ensuite, quand un développeur livrera le fix, le defect passera à \textquote{Validate}, ce qui court-circuitera l'annotation\footnote{même comportement pour le statut \textquote{Closed} ou n'importe quel autre qui n'est pas \textquote{Active} ni \textquote{Open}}. Et en fonction de l'efficience du fix, le test redevient vert ou reste à rouge.\\
-\textbf{De cette manière}, seuls les tests non investigués sont rouges, ce qui permet de réagir beaucoup plus rapidement et de réduire le temps d'investigation.\\
+\textbf{Alors}, le test sera considéré en succès par Jenkins. Ensuite, quand un développeur livrera la correction, le defect passera à \textquote{Validate}, ce qui court-circuitera l'annotation\footnote{même comportement pour le statut \textquote{Closed} ou n'importe quel autre qui n'est pas \textquote{Active} ni \textquote{Open}}. Et en fonction de la validité de la correction, le test redevient vert ou reste rouge.\\
+\textbf{De cette manière}, seuls les tests non investigués sont rouges, ce qui permet de réagir beaucoup plus rapidement et réduire le temps d'investigation.\\
 
 Pour résumer, la relation qu'entretien BCP et JCWB est illustrée figure \ref{figure:bugManagementProcess}.
 
@@ -91,8 +90,8 @@ Pour résumer, la relation qu'entretien BCP et JCWB est illustrée figure \ref{f
 \textbf{Probl\'{e}matique}\hfill \\ \indent
 
 Actuellement, seuls les defects rentrés sur Jira sont pris en compte, la mécanique en place ne permet pas de récupérer ces mêmes informations de JCWB\index{Java Correction WorkBench}. \\
-Puisque de plus en plus de defects seront enregistrés sur JCWB, et dans un soucis d'homogénéisation du process actuel, il faut mettre à jour le process actuel et permettre aux statuts d'être ajustés quelque soit l'origine du defect (Jira ou CWB).\\
-La problèmatique supplémentaire relève de l'architecture différente différente de Jira et de BCP\footnote{Contient le message initial à l'origine du defect} + JCWB\footnote{Contient la \textquote{Correction Measure} (CM) et les \textquote{Correction Requests}} (CR), ce qui nous oblige à aller receuillir des informations à deux endroits différents. Le premier objectif étant de récupérer l'identifiant de la \textquote{Correction Request} à laquel le defect est associé et l'identifiant de la \textquote{Correction Measure} à laquel la CR est associée.\\
+Puisque nous ne pouvons pas aller chercher le résultat de JCWB, il faut mettre à jour le process actuel et permettre aux statuts d'être ajustés quelque soit l'origine du defect (Jira ou CWB).\\
+La problèmatique supplémentaire relève de l'architecture différente de Jira et de JCWB\footnote{Contient la \textquote{Correction Measure} (CM) et les \textquote{Correction Requests}} (CR), ce qui nous oblige à aller receuillir des informations à deux endroits différents. Le premier objectif étant de récupérer l'identifiant de la \textquote{Correction Request} à laquel le defect est associé et l'identifiant de la \textquote{Correction Measure} à laquelle la CR est associée.\\
 
 
 
@@ -102,9 +101,9 @@ La problèmatique supplémentaire relève de l'architecture différente différe
 \section{Travail effectu\'{e}}
 
 
-La première partie du travail s'est cantonée d'abord à des échanges de mails parallèlement à des recherches.\\
+La première partie du travail s'est cantonnée d'abord à des échanges de mails parallèlement à des recherches.\\
 La difficulté de cette partie a été de comprendre le problème dans sa globalité. D'abord, je ne connaissais pas le process qui nécessitait cette modification. Dans la partie précédente de mon contrat j'ai pu utiliser Jira\index{Jira} et JCWB\index{Java Correction WorkBench} ainsi que les defects qui y étaient enregistrés, mais c'était tout.
-Les différentes choses essentielles à mon projets sont les suivantes :
+Les différentes choses essentielles à mon projet sont les suivantes :
 
 \begin{itemize}
 	\item il existe un web service permettant de récupérer les informations d'une CR : CWB HTTP API
@@ -119,7 +118,7 @@ Les différentes choses essentielles à mon projets sont les suivantes :
 
 \subsection{Fonctionnement et utilisation de prod-pass-access}
 La première chose sur laquelle je me suis penché a été de comprendre le fonctionnement de prod-pass-access, \gls{API} développée par et pour les services de SAP pour sécuriser ses tranferts d'informations.\\
-Je suis donc allé sur le portail de l'entreprise pour étudier cette libraire, la première chose que j'ai apprise est que prod-pass-access signifie : \textquote{Production password access} et que son rôle et de lire et écrire des credentials\footnote{Les credentials sont les noms d'utilisateurs ou mots de passe}.\\
+Je suis donc allé sur le portail de l'entreprise pour étudier cette librairie, la première chose que j'ai apprise est que prod-pass-access signifie : \textquote{Production password access} et que son rôle est de lire et écrire des credentials\footnote{Les credentials sont les noms d'utilisateurs ou mots de passe}.\\
 Dans les différentes explications que j'ai pu trouver il était indiqué que pour utiliser cette \gls{API} il fallait avoir été, au préalable, enregistré dans un dossier particulier sur un serveur. Je ne comprenais pas grand chose à comment je pouvais utiliser tout ceci, j'ai donc téléchargé l'API en question et ai fait mes expériences en lignes de commande.\\
 Je ne connaissais pas cet outil et il me fallait découvrir comment celui-ci fonctionnait car il me permettrait ensuite de communiquer avec le serveur pour pouvoir utiliser l'\gls{API} CWB HTTP API.\\
 
@@ -133,7 +132,7 @@ La documentation de cette API était plutôt claire (figure \ref{figure:prodpass
 
 
 J'ai suivi les informations me permettant de générer un utilisateur, et au fur et à mesure le fonctionnement de cette API s'est éclairci.\\
-Cette API sert à identifier l'utilisateur grâce aux fichiers enregistrés d'une part sur le serveur et d'autre part sur la machine faisant la requête. Les fichiers en local contiennent non seulement le nom d'utilisateur mais aussi le mot de passe en crypté. La clé pouvant décrypter le mot de passe est hébergées sur le serveur et lui seul peut décrypter le mot de passe crypté envoyé par l'utilisateur.
+Cette API sert à identifier l'utilisateur grâce aux fichiers enregistrés d'une part sur le serveur et d'autre part sur la machine faisant la requête. Les fichiers en local contiennent non seulement le nom d'utilisateur mais aussi le mot de passe en crypté. La clé pouvant décrypter le mot de passe est hébergée sur le serveur et lui seul peut décrypter le mot de passe crypté envoyé par l'utilisateur.
 
 J'ai donc créé mon utilisateur grâce aux commandes suivantes :\\
 \begin{lstlisting}
@@ -143,50 +142,58 @@ Prodpassaccess set MyPurpose password password012
 prodpassaccess --credentials-file credentials.properties --master-file master.xml set myPurpose user pierre
 \end{lstlisting}
 
-J'ai fais plusieurs tests avant de pouvoir exécuter ces lignes de commandes mais le principe d'utilisation est assez simple.\\
-La première ligne va permettre à l'utilisateur de fournir un mot de passe. Après l'exécution, je suis allé voir (comme précisé dans la documention sur le portail de SAP) dans le dossier prodpassaccess contenu à la racine de mon dossier User, dans celui-ci il y a le fichier master.xml contenant une clé de cryptage.\\
+J'ai fait plusieurs tests avant de pouvoir exécuter ces lignes de commandes mais le principe d'utilisation est assez simple.\\
+La première ligne va permettre à l'utilisateur de fournir un mot de passe. Après l'exécution, je suis allé voir (comme précisé dans la documentation sur le portail de SAP) dans le dossier prodpassaccess contenu à la racine de mon dossier User, dans celui-ci il y a le fichier master.xml contenant une clé de cryptage.\\
 Les deux lignes suivantes permettent de créer un utilisateur et un mot de passe pour un \textquote{purpose} en particulier.\\
 La dernière ligne, elle, permet d'enregistrer les informations cryptées dans un fichier \textquote{credentials.properties}..\\
 J'avais donc réussi à créer un utilisateur mais je ne savais toujours pas comment l'utiliser dans mon code java. Je me suis donc arrêté là, car je ne pouvais pas tester ce que j'avais réussi à faire.\\
+
+
+
+
+
+
+
+\subsection{Accès au web service}
 Maintenant il fallait que je trouve le moyen d'envoyer une requête au \gls{Web service}. Mais avant cela, comme précisé dans la documentation, ce n'était pas une connexion HTTP classique mais SSL nécessitant l'utilisation d'un certificat. Je ne savais pas ce que cela était. J'ai donc discuté avec un collègue ayant déjà utilisé un service similaire et il m'a envoyé un code \gls{Java} qui pourrait m'inspirer. En fouillant dans son code j'ai trouvé une méthode pemettant de passer le contrôle des certificats. Après cela, je pouvais manipuler une connection HTTPS depuis mon code \gls{Java}, mais encore une fois, il ne m'était pas possible de tester le code que j'avais.\\
 \`{A} ce moment, je pouvais donc :
 \begin{itemize}
-	\item utiliser l'API de cryptage des information : prod-pass-access
-	\item me connecter, grâce à une connection sécurisée, à une url
+	\item utiliser l'API de cryptage des informations : prod-pass-access
+	\item me connecter, grâce à une connexion sécurisée, à une url
 \end{itemize}
-Il me manquait le point essentiel, l'url du web service que je voulais utiliser. Je suis donc aller chercher l'information parmis les membres de mon équipe, ils ne savaient pas non plus, mais m'ont donné le nom de celui qui s'était occupé de développer cette API, un collègue travaillant sur le site de Walldorf, en Allemagne. Je lui ai donc envoyé un mail pour conna\^{i}tre le moyen d'utiliser son API et lui ai demandé sa documentation. Nous avons discuté un peu par mail car celui-ci voulais savoir pourquoi j'en avais besoin et si cela était vraiment nécessaire. Après quelques échange de mail, celui-ci m'a transmit la documentation relative à l'API dont j'avais besoin.\\
+Il me manquait le point essentiel, l'url du web service que je voulais utiliser. Je suis donc aller chercher l'information parmi les membres de mon équipe, ils ne savaient pas non plus, mais m'ont donné le nom de celui qui s'était occupé de développer cette API, un collègue travaillant sur le site de Walldorf, en Allemagne. Je lui ai donc envoyé un mail pour conna\^{i}tre le moyen d'utiliser son API et lui ai demandé sa documentation. Nous avons discuté un peu par mail car celui-ci voulait savoir pourquoi j'en avais besoin et si cela était vraiment nécessaire. Après quelques échanges de mail, celui-ci m'a transmis la documentation relative à l'API dont j'avais besoin.\\
 J'ai donc étudié la documentation pour savoir quelle requête je devais envoyer.\\
-J'ai trouvé exactement ce qu'il me fallait, il y avais, parmi les différentes méthodes accessible via le \gls{Web service}, celle qui me retournai le statut de la Correction Request dont l'identifiant est passé en paramètre dans la requête. La requête que je devais envoyé était de la forme :
+J'ai trouvé exactement ce qu'il me fallait, il y avait, parmi les différentes méthodes accessibles via le \gls{Web service}, celle qui me retournait le statut de la Correction Request dont l'identifiant est passé en paramètre dans la requête. La requête que je devais envoyé était de la forme :
 \begin{lstlisting}
 https://css.wdf.sap.corp/sap/bc/bsp/spn/jcwb_api_extern/get_correction_requests?pointer=<id de la correction request>
 \end{lstlisting}
 
-J'ai immédiatement essayé cette url que j'ai collé dans la barre d'adresse de mon navigateur avec l'identifiant d'une correction request valide. L'accès à cette url m'affichait uniquement un pop-up me demandant de renseigner un nom d'utilisateur et un mot de passe. J'ai essayé avec mes identifiants personnels qui j'utilise tous les jours pour me connecter aux services sécurisés se SAP. La connexion est refusée.\\
-C'était donc ici que je devais trouver le moyen d'utiliser les credentials créés grâce à prod-pass-access, et de les intégré à ma requête HTTPS.\\
+J'ai immédiatement essayé cette url que j'ai collé dans la barre d'adresse de mon navigateur avec l'identifiant d'une correction request valide. L'accès à cette url m'affichait uniquement un pop-up me demandant de renseigner un nom d'utilisateur et un mot de passe. J'ai essayé avec mes identifiants personnels que j'utilise tous les jours pour me connecter aux services sécurisés se SAP. La connexion est refusée.\\
+C'était donc ici que je devais trouver le moyen d'utiliser les credentials créés grâce à prod-pass-access, et de les intégrer à ma requête HTTPS.\\
 J'ai complété mon code \gls{Java} avec l'url du \gls{Web service}. J'ai trouvé dans la documentation de prod-pass-access la marche à suivre pour accéder aux credentials directement depuis mon code \gls{Java}. J'ai donc importé le \gls{JAR} de prod-pass-access dans mon projet.\\
-D'autre part, il fallait transmettre les credentials d'une autre façon que par l'url, En étudiant les documentation des requêtes http j'ai trouvé les paramètres qui correspondaient exactement à ce que je cherchais.\\
+D'autre part, il fallait transmettre les credentials d'une autre façon que par l'url, En étudiant les documentations des requêtes http j'ai trouvé les paramètres qui correspondaient exactement à ce que je cherchais.\\
 Le code dont il est question est disponible dans l'annexe \ref{annexe:httpcwbapi} page \pageref{annexe:httpcwbapi}, la solution pour se connecter via HTTPS est implémentée dans la méthode \textquote{sendRequest()} et l'utilisation de l'API ainsi que l'url de l'\gls{API} \textquote{HTTP CWB API} est implémentée dans la méthode \textquote{findStatus()}.
 
-J'ai exécuté mon code contenant tous les éléments pour que cela fonctionne, j'avais tout considérer dans mon code pour me connecter au \gls{Web service} :
+J'ai exécuté mon code contenant tous les éléments pour que cela fonctionne, j'avais tout considéré dans mon code pour me connecter au \gls{Web service} :
 \begin{itemize}
 	\item j'avais réglé le problème de la connexion sécurisé (protocole SSL)
 	\item je pouvais accéder à mes credentials depuis mon code \gls{Java}
-	\item j'avais renseigné la bonne url est effectué la bonne requête pour accéder au statut de la Correction Request
-	\item j'avais renseigné mes credentials de la manière préconisée par les spécification du protocole HTTP
+	\item j'avais renseigné la bonne url et effectué la bonne requête pour accéder au statut de la Correction Request
+	\item j'avais renseigné mes credentials de la manière préconisée par les spécifications du protocole HTTP
 \end{itemize}
 
 
 En réponse, le serveur m'a renvoyé ceci \textquote{{\color{red}ERROR: Bitte übergeben Sie Benutzer und Password}}\\
 
-
-\`{A} ce moment je me suis souvenu de la documentation de prod-pass-access, particulièrement d'un élément que je n'avais pas compris quand je l'avais lu pour la première fois. Il s'agissait dans dossier particulier, hébergé sur un serveur à Walldorf. Celui-ci contient tous les credentials des utilisateurs autorisés à utiliser ce service. Je me suis donc repenché sur la création d'un utilisateur et tout se qu'il me restait à faire était de stocker mes informations sur ce serveur en question, et pas en local comme je l'avais fais lors de mes tests.\\
+\subsection{Création du nouvel utilisateur}
+\`{A} ce moment je me suis souvenu de la documentation de prod-pass-access, particulièrement d'un élément que je n'avais pas compris quand je l'avais lu pour la première fois. Il s'agissait dans dossier particulier, hébergé sur un serveur à Walldorf. Celui-ci contient tous les credentials des utilisateurs autorisés à utiliser ce service. Je me suis donc repenché sur la création d'un utilisateur et tout se qu'il me restait à faire était de stocker mes informations sur ce serveur en question, et pas en local comme je l'avais fait lors de mes tests.\\
 Je suis allé chercher dans la documentation l'adresse de ce fameux dossier pour y enregistrer mes credentials dont l'adresse est 
 
 \begin{lstlisting}
 \\production.wdf.sap.corp\info\make\
 \end{lstlisting}
 
-Ce dossier contient un grand nombre d'autres dossiers, d'après la documentation, il s'agit des tous les utilisateurs utilisant ce service. J'ai choisi un user générique \textquote{pblack} utilisé par beaucoup d'ingénieurs de chez SAP pour effectuer leurs tests avec ce service. Ce dossier correspond à mon dossier User que j'ai sur ma machine en local. J'ai donc ré-exécuter la commande permettant de stocker les credentials, mais cette fois-ci en précisant le nouvel emplacement.
+Ce dossier contient un grand nombre d'autres dossiers, d'après la documentation, il s'agit de tous les utilisateurs utilisant ce service. J'ai choisi un user générique \textquote{pblack} utilisé par beaucoup d'ingénieurs de chez SAP pour effectuer leurs tests avec ce service. Ce dossier correspond à mon dossier User que j'ai sur ma machine en local. J'ai donc ré-exécuter la commande permettant de stocker les credentials, mais cette fois-ci en précisant le nouvel emplacement.
 \begin{lstlisting}
 prodpassaccess 
 --credentials-file \\production.wdf.sap.corp\info\make\pblack\.prodpassaccess\credentials.properties 
@@ -194,12 +201,12 @@ prodpassaccess
 set myPurpose pierre 
 \end{lstlisting}
 
-Ceci fait, j'ai ré-exécuter mon code \gls{Java} pour me connecter à l'API. La réponse que j'ai reçu était \textquote{Open}, ce qui voulais dire que le statut du defect dont j'avais renseigné l'identifiant dans la requête était toujours en cours de traitement. Mais surtout, cela voulais dire que toute mon implémentation fonctionnait. \\
+Ceci fait, j'ai ré-exécuter mon code \gls{Java} pour me connecter à l'API. La réponse que j'ai reçu était \textquote{Open}, ce qui voulait dire que le statut du defect dont j'avais renseigné l'identifiant dans la requête était toujours en cours de traitement. Mais surtout, cela voulais dire que toute mon implémentation fonctionnait. \\
 Je pouvais maintenant revoir mon code, le clarifier et finalement le transmettre pour validation.\\
 
 
 \section{Conclusion de la mission}
-La mission qu'il m'a été attribué devait compléter le fonctionnement de quelque chose qui existait déjà. Je devais donc, au préalable, étudier le contexte dans le lequel celle-ci s'intégrait. D'autre part, en plus de m'intégrer dans code déjà existant, je devait intégrer à mon code une API que l'utilisation d'une autre API nécessitait. J'ai appris énormément de choses en Java, même si en terme de lignes de code je n'en ai pas écrit beaucoup, il m'a fallut beaucoup de recherche pour effectuer ce que je voulais, que ce soit au niveau de la sécurité du transfert de données ou des différentes manières de gérer une connexion HTTP en Java. J'ai de plus implémenter une classe abstraite pour la première fois, je n'en avais jamais eu l'utilité et j'ai pu découvrir, par la nécessité, son intérêt et sa puissance. J'ai réussi à obtenir une implémentation fonctionnelle en moins de trois semaines et j'ai été particulièrement ravi d'obtenir ce résultat.
+La mission qui m'a été attribué devait compléter le fonctionnement de quelque chose qui existait déjà. Je devais donc, au préalable, étudier le contexte dans le lequel celle-ci s'intégrait. D'autre part, en plus de m'intégrer dans le code déjà existant, je devais intégrer à mon code une API que l'utilisation d'une autre API nécessitait. J'ai appris énormément de choses en Java, même si en terme de lignes de code je n'en ai pas écrit beaucoup, il m'a fallu beaucoup de recherches pour effectuer ce que je voulais, que ce soit au niveau de la sécurité du transfert de données ou des différentes manières de gérer une connexion HTTP en Java. J'ai de plus implémenté une classe abstraite pour la première fois, je n'en avais jamais eu l'utilité et j'ai pu découvrir, par la nécessité, son intérêt et sa puissance. J'ai réussi à obtenir une implémentation fonctionnelle en moins de trois semaines et j'ai été particulièrement ravi d'obtenir ce résultat.
 
 
 
